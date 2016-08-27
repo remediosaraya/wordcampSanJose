@@ -1545,5 +1545,5 @@ ul#session-speaker-names li {
 .type-wcb_session .slides div {
     display: none
 }
-.after-header-widgets{background-color: none;}
+#after-header-widgets .widget{background-color: none;}
 
