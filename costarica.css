@@ -1546,8 +1546,14 @@ ul#session-speaker-names li {
     display: none
 }
 #after-header-widgets .widget{background-color: none!important;}
-#masthead{background-image: url("http://2016.sanjose.wordcamp.org/files/2016/08/wordCampCR.png" 10px 30px; )}
-.site-header .menu-toggle {position: absolute;top: .1875rem;font-size: 0;height: 1.1875rem;width: 1.9375rem;right: 1.25rem;background: url('http://2016.sanjose.wordcamp.org/files/2016/08/icon-burger-black.png');
+#masthead{background: url("http://2016.sanjose.wordcamp.org/files/2016/08/wordCampCR.png") 10px 30px;}
+.site-header .menu-toggle {.site-header .menu-toggle {
+    position: absolute;
+    top: 2rem;
+    font-size: 0;
+    height: 19px;
+    width: 29px;
+    right: 1.25rem;background: url('http://2016.sanjose.wordcamp.org/files/2016/08/icon-burger-black.png');
 }
 
 
