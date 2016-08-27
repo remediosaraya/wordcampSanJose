@@ -772,7 +772,7 @@ body.single .entry-content {
 .form-allowed-tags {
     display: none
 }
-#page .widget {
+#secondary .widget {
     background: #f2f2f2;
     margin: 0 0 50px;
     padding: 0
