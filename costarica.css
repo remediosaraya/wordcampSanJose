@@ -131,6 +131,10 @@ footer[role="contentinfo"] a:hover {
     float: right;
     width: auto
 }
+.main-navigation ul{
+    float: right;
+    width: auto
+}
 .main-navigation ul.nav-menu,
 .main-navigation div.nav-menu > ul {
     border: none
@@ -219,14 +223,14 @@ footer[role="contentinfo"] a:hover {
     padding: 0
 }
 .main-navigation li ul li a:hover {
-    background-color: #fff;
+    background-color: #cf3e31;
     color: #333 !important
 }
 .main-navigation .current-menu-item > a,
 .main-navigation .current-menu-ancestor > a,
 .main-navigation .current_page_item > a,
 .main-navigation .current_page_ancestor > a {
-    color: #fff;
+    color: #cf3e31;
     font-weight: 400
 }
 .main-navigation ul.nav-menu.toggled-on,
