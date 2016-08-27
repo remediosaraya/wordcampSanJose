@@ -5,9 +5,9 @@
     clip: rect(1px, 1px, 1px, 1px);
     position: absolute
 }
-.site {
+.home {
     background: #fff url('https://2016.sanjose.wordcamp.org/files/2016/08/Costa-Rica-San-Jose-View.jpg') no-repeat 0 89px;
-    background-size: 100% 160px;
+    background-size: 100%;
     margin: 0 0 50px;
     max-width: 100%;
     min-width: 250px;
@@ -15,7 +15,6 @@
     position: relative
 }
 body.home .site {
-    background: #fff
 }
 .site-header {
     padding: 0
