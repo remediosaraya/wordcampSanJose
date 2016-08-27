@@ -109,7 +109,7 @@ footer[role="contentinfo"] a:hover {
     content: "WordCamp San Jose - Costa Rica - 5 de noviembre, 2016"
 }
 .site-header {
-    background-color: #c63025;
+    background-color: rgba(255,255,255,.8);
     height: 89px;
     padding: 0;
     position: fixed;
@@ -139,7 +139,7 @@ footer[role="contentinfo"] a:hover {
     margin: 0
 }
 .main-navigation li a {
-    color: #fff;
+    color: #000;
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 1px;
@@ -1657,9 +1657,9 @@ ul#session-speaker-names li {
     line-height: 200px;
     color: rgba(198,48,38, 0.8);
 }
-.cb-slideshow li:nth-child(1) span { background-image: url(https://2016.sanjose.wordcamp.org/files/2016/08/cr-city-wordcamp.jpg) }
+.cb-slideshow li:nth-child(1) span { background-image: url("https://2016.sanjose.wordcamp.org/files/2016/08/cr-city-wordcamp.jpg") }
 .cb-slideshow li:nth-child(2) span {
-    background-image: url(https://2016.sanjose.wordcamp.org/files/2016/08/cr-beach-wordcamp.jpg);
+    background-image: url("https://2016.sanjose.wordcamp.org/files/2016/08/cr-beach-wordcamp.jpg");
     -webkit-animation-delay: 6s;
     -moz-animation-delay: 6s;
     -o-animation-delay: 6s;
@@ -1667,7 +1667,7 @@ ul#session-speaker-names li {
     animation-delay: 6s;
 }
 .cb-slideshow li:nth-child(3) span {
-    background-image: url(https://2016.sanjose.wordcamp.org/files/2016/08/cr-town-wordcamp.jpg);
+    background-image: url("https://2016.sanjose.wordcamp.org/files/2016/08/cr-town-wordcamp.jpg");
     -webkit-animation-delay: 12s;
     -moz-animation-delay: 12s;
     -o-animation-delay: 12s;
@@ -1675,7 +1675,7 @@ ul#session-speaker-names li {
     animation-delay: 12s;
 }
 .cb-slideshow li:nth-child(4) span {
-    background-image: url(https://2016.sanjose.wordcamp.org/files/2016/08/cr-feria-wordcamp.jpg);
+    background-image: url("https://2016.sanjose.wordcamp.org/files/2016/08/cr-feria-wordcamp.jpg");
     -webkit-animation-delay: 18s;
     -moz-animation-delay: 18s;
     -o-animation-delay: 18s;
@@ -1683,7 +1683,7 @@ ul#session-speaker-names li {
     animation-delay: 18s;
 }
 .cb-slideshow li:nth-child(5) span {
-    background-image: url(https://2016.sanjose.wordcamp.org/files/2016/08/cr-jungle-wordcamp.jpg);
+    background-image: url("https://2016.sanjose.wordcamp.org/files/2016/08/cr-jungle-wordcamp.jpg");
     -webkit-animation-delay: 24s;
     -moz-animation-delay: 24s;
     -o-animation-delay: 24s;
@@ -1691,7 +1691,7 @@ ul#session-speaker-names li {
     animation-delay: 24s;
 }
 .cb-slideshow li:nth-child(6) span {
-    background-image: url(https://2016.sanjose.wordcamp.org/files/2016/08/cr-campers-wordcamp.jpg);
+    background-image: url("https://2016.sanjose.wordcamp.org/files/2016/08/cr-campers-wordcamp.jpg");
     -webkit-animation-delay: 30s;
     -moz-animation-delay: 30s;
     -o-animation-delay: 30s;
