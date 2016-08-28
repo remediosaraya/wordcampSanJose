@@ -334,15 +334,15 @@ body.home #page #text-5 {
     padding: 0
 }
 #page #text-5 .dev-widget .header-widget-inner {
-    background: transparent url('http://2016.sanjose.wordcamp.org/files/2016/08/wordcamp-dev.png') no-repeat top center;
+    background: transparent url('http://2016.sanjose.wordcamp.org/files/2016/08/wordcamp-dev-1.png') no-repeat top center;
     background-size: 64px 64px
 }
 #page #text-5 .blogger-widget .header-widget-inner {
-    background: transparent url('http://2016.sanjose.wordcamp.org/files/2016/08/wordcamp-blogger.png') no-repeat top center;
+    background: transparent url('http://2016.sanjose.wordcamp.org/files/2016/08/wordcamp-blogger-1.png') no-repeat top center;
     background-size: 64px 64px
 }
 #page #text-5 .ux-widget .header-widget-inner {
-    background: transparent url('http://2016.sanjose.wordcamp.org/files/2016/08/wordcamp-ux.png') no-repeat top center;
+    background: transparent url('http://2016.sanjose.wordcamp.org/files/2016/08/wordcamp-ux-1.png') no-repeat top center;
     background-size: 64px 64px
 }
 #page #text-5 .header-widget h4 {
@@ -836,7 +836,8 @@ body.single .entry-content {
 #page .widget_text,
 #page .widget_text p {
     font-size: 13px;
-    line-height: 22px
+    line-height: 22px;
+    text-align: justify;
 }
 #page .widget_text a {
     color: #2d168a
