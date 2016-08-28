@@ -40,7 +40,7 @@ body.home .site{background-size: 130%; background: #fff url("https://2016.sanjos
 }
 body.home #primary {
     margin: 0;
-    padding: 80px 4% 0 0
+    padding: 80px 0 0
 }
 body.home #primary::before {
     background-color: #fff;
@@ -1592,7 +1592,59 @@ To learn how this works, see http://wp.me/PEmnE-Bt
 .clr {
     clear: both;
 }
+.slider {
+  width: 100%;
+  height: 600px;
+  margin: 0;
+  position: relative;
+}
+.slide1,.slide2,.slide3,.slide4,.slide5,.slide6 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.slide1 {
+  background-image: url('https://2016.sanjose.wordcamp.org/files/2016/08/cr-city-wordcamp.jpg');
+      background-size: cover;
+    animation:fade 8s infinite;
+    -webkit-animation:fade 8s infinite;
 
+} 
+.slide2 {
+  background-image: url('https://2016.sanjose.wordcamp.org/files/2016/08/cr-beach-wordcamp.jpg');
+      background-size: cover;
+    animation:fade2 8s infinite;
+    -webkit-animation:fade2 8s infinite;
+}
+.slide3 {
+    background-image: url('https://2016.sanjose.wordcamp.org/files/2016/08/cr-town-wordcamp.jpg');
+      background-size: cover;
+    animation:fade3 10s infinite;
+    -webkit-animation:fade3 8s infinite;
+}
+
+
+@keyframes fade
+{
+  0%   {opacity:1}
+  33.333% { opacity: 0}
+  66.666% { opacity: 0}
+  100% { opacity: 1}
+}
+@keyframes fade2
+{
+  0%   {opacity:0}
+  33.333% { opacity: 1}
+  66.666% { opacity: 0 }
+  100% { opacity: 0}
+}
+@keyframes fade3
+{
+  0%   {opacity:0}
+  33.333% { opacity: 0}
+  66.666% { opacity: 1}
+  100% { opacity: 0}
+}
 .containerSlide > header {
     padding: 30px 20px 10px 20px;
     margin: 0 10px 10px;
@@ -2119,9 +2171,9 @@ To learn how this works, see http://wp.me/PEmnE-Bt
     .cb-slideshow li div h3 {
         font-size: 50px;
     }
-    .home .category-news{width: 97%; margin:10px 1%; }
+    .home .category-news{width: 98%!important; margin:1%!important;float: left; padding:10px!important;border: solid 1px #ff7b6f!important; }
     .sub-menu{margin: 10px 0 0 -10px;}
 }
 .sub-menu .menu-item a{ padding: 7px 15px!important; text-align: left;}
 .wp-caption-text{display: none;}
-.home .category-news{width: 48%; margin:1%!important;float: left; padding:10px!important;border: solid 1px #ff7b6f; }
+.home .category-news{width: 48%; margin:1%!important;float: left; padding:10px!important;border: solid 1px #ff7b6f!important; }
