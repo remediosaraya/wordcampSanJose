@@ -151,7 +151,7 @@ footer[role="contentinfo"] a:hover {
     padding: 0 0 0 10px
 }
 .main-navigation li a::after {
-    content: '/';
+    content: '|';
     padding: 0 0 0 13px
 }
 .main-navigation li.entradas a::after,
@@ -1598,7 +1598,7 @@ To learn how this works, see http://wp.me/PEmnE-Bt
 }
 
 .containerSlide > header h1 {
-    font-family: 'Passion One', cursive;
+    font-family: 'Oswald', arial, helvetica;
     font-size: 42px;
     position: relative;
     font-weight: 400;
