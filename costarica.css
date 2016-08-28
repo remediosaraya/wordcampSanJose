@@ -54,7 +54,7 @@ body.home #primary::before {
     line-height: 34px;
     padding: 0 40px 0 0;
     left: 0;
-    top: -70px;
+    top: -79px;
     position: relative;
     text-transform: uppercase;
     z-index: 2
@@ -1408,7 +1408,7 @@ table.tix_tickets_table td.tix-column-remaining {
         overflow: hidden
     }
     body.home #main {
-        margin: 840px auto 0
+        margin: 860px auto 0
     }
     .menu-primary-menu-container {
         background: transparent url('https://2015.buenosaires.wordcamp.org/files/2015/03/wcba-logo-web2.png') no-repeat top left;
