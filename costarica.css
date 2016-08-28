@@ -561,7 +561,7 @@ body.archive .entry-content {
     text-decoration: none
 }
 #page .more-link {
-    background-color: rgba(255, 255, 255, 0.65);
+    background-color: #cf3e31;
     border-radius: 5px;
     color: #fff;
     display: inline-block;
@@ -1732,9 +1732,11 @@ To learn how this works, see http://wp.me/PEmnE-Bt
     .cb-slideshow li div h3 {
         font-size: 50px;
     }
-    .home .category-news{width: 98%!important; margin:1%!important;float: left; padding:10px!important;border: solid 1px #ff7b6f!important; }
+    .footer-widgets-block{display:none;}
+    .home .category-news{width: 98%!important; background: #fff; margin:1%!important;float: left; padding:10px!important;border: solid 1px #ff7b6f!important; }
     .sub-menu{margin: 10px 0 0 -10px;}
 }
+.footer-widgets-block{width: 23%; margin: 1%; float: left;}
 .sub-menu .menu-item a{ padding: 7px 15px!important; text-align: left;}
 .wp-caption-text{display: none;}
 .home .category-news{width: 48%; margin:1%!important;float: left; padding:10px!important;border: solid 1px #ff7b6f!important; }
