@@ -487,12 +487,14 @@ a:hover {
     text-align: left
 }
 .entry-header .entry-title a {
-    color: #c63025;
+    color: #fff;
     transition: all .5s ease
 }
 .entry-header .entry-title a:hover {
-    color: #333
+    color: #eee
 }
+.entry-header .entry-meta{color:#fff;}
+.entry-header .entry-meta a{color:#eee;}
 body.archive .archive-header .archive-title a {
     color: #fff;
     transition: all .5s ease
@@ -1739,7 +1741,7 @@ To learn how this works, see http://wp.me/PEmnE-Bt
 .footer-widgets-block{width: 23%; margin: 1%; float: left;}
 .sub-menu .menu-item a{ padding: 7px 15px!important; text-align: left;}
 .wp-caption-text{display: none;}
-.home .category-news{width: 48%; margin:1%!important;float: left; padding:10px!important;border: solid 1px #ff7b6f!important; }
+.home .category-news{width: 48%; margin:1%!important;float: left; position: relative; padding:10px!important;border: solid 1px #ff7b6f!important; }
 body.home #secondary::before {
     background-color: #fff;
     color: #c63025;
@@ -1754,9 +1756,22 @@ body.home #secondary::before {
     padding: 0 40px 0 0;
     position: relative;
     text-transform: uppercase;
-    top: -70px;
+    top: 100px;
     z-index: 2;
 }
-
+body.blog #page .entry-header, body.archive #page .entry-header {
+    background: rgba(198, 48, 38, 0.95) none repeat scroll 0 0;
+    border-radius: 0 0 70px;
+    box-shadow: -1px 3px 4px #333;
+    height: auto;
+    left: -5px;
+    margin: 11px 0 0 3px;
+    padding: 5px 15px 5px 10px;
+    position: absolute;
+    text-align: left;
+    top: 1px;
+    width: 97%;
+}
+.home .category-news{box-shadow: 1px 1px 3px #333;}
 
 
