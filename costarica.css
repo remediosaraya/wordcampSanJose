@@ -1105,7 +1105,9 @@ table.tix_tickets_table td.tix-column-remaining {
         max-width: 100%;
         overflow: hidden
     }
-    
+    #main {
+        margin: -160px auto 0!important;
+    }
     body.home #main {
         margin: 860px auto 0
     }
@@ -1406,7 +1408,9 @@ table.tix_tickets_table td.tix-column-remaining {
         background-size: contain
     }
 }
-
+article.page .entry-content {
+    padding: 5px 30px 15px
+}
 body.single-post .site-content article,
 body.single-wcb_speaker .site-content article,
 body.single-wcb_session .site-content article {
@@ -1759,9 +1763,3 @@ body.blog #page .entry-header, body.archive #page .entry-header {
     padding: 0 30px 0 0;
     text-align: left
 }
-article.page .entry-content {
-    padding: 5px 30px 15px
-}
-#main{
-    margin: -160px auto 0!important;
-    }
