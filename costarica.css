@@ -1550,7 +1550,7 @@ ul#session-speaker-names li {
     display: none
 }
 #after-header-widgets .widget{background-color: none!important;}
-.site-title{background: url("http://2016.sanjose.wordcamp.org/files/2016/08/wordCampCR.png") 21px 15px no-repeat;}
+#masthead hgroup{background: url("http://2016.sanjose.wordcamp.org/files/2016/08/wordCampCR.png") 21px 15px no-repeat;}
 .site-header .menu-toggle {.site-header .menu-toggle {
     position: absolute;
     top: 2rem;
