@@ -7,9 +7,9 @@
 @media screen and (max-width: 600px) {
 html{margin: 0!important;}
 .home #wpadminbar{display:none!important;}
-.menu-menu-1-container{background: #c63025; min-height: 630px; width: 80%; box-shadow: -2px 1px 3px #333; float:right; right: -1px;}
+.menu-menu-1-container{background: #c63025; width: 80%; box-shadow: -2px 1px 3px #333; float:right; right: -1px;}
 .menu-menu-1-container ul{list-style: none; height: 100%; margin: 0px;}
-.menu-menu-1-container .menu {margin:80px 5px 20px;}
+.menu-menu-1-container .menu {margin:80px 5px 200px;}
 .menu-menu-1-container ul li{ font-size: 18px; padding: 0;border-top: solid 1px #8a1c12; }
 .menu-menu-1-container ul li a{color: #fff; text-decoration:none; display: block; width: 100%;padding: 10px 0px 10px 10px;-webkit-transition: background-color 1000ms linear;
     -moz-transition: background-color 1000ms linear;
