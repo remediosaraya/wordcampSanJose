@@ -1185,11 +1185,7 @@ table.tix_tickets_table td.tix-column-remaining {
         margin: 0;
         padding: 0 4%;
     }
-    #primary , #secondary{
-        float: left;
-    }
-    #primary {width: 70%;}  
-    #secondary{width: 25%;}
+
     .site-content nav {
         margin: 0
     }
@@ -1560,7 +1556,7 @@ ul#session-speaker-names li {
     display: none
 }
 #after-header-widgets .widget{background-color: none!important;}
-#masthead .site-navigation{background: url("http://2016.sanjose.wordcamp.org/files/2016/08/wordCampCR.png") 40px 17px no-repeat;}
+#masthead .site-navigation{background: url("http://2016.sanjose.wordcamp.org/files/2016/08/wordCampCR.png") 40px 17px no-repeat; min-height: 90px;}
 .site-header .menu-toggle {
     position: absolute;
     top: 2rem;
