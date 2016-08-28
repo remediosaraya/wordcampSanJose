@@ -1105,9 +1105,7 @@ table.tix_tickets_table td.tix-column-remaining {
         max-width: 100%;
         overflow: hidden
     }
-    #main {
-        margin: -160px auto 0!important;
-    }
+    
     body.home #main {
         margin: 860px auto 0
     }
@@ -1764,3 +1762,6 @@ body.blog #page .entry-header, body.archive #page .entry-header {
 article.page .entry-content {
     padding: 5px 30px 15px
 }
+#main{
+    margin: -160px auto 0!important;
+    }
