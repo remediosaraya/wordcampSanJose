@@ -267,7 +267,7 @@ button:active {
     color: rgba(255, 255, 255, 0.65);
     outline: none
 }
-.main-navigation ul ul{top:3em; right: 0!important;}
+.main-navigation ul ul{top:4.5em; right: 0!important;}
 .main-navigation ul ul a{width: 220px; line-height: 50px;}
 .single-author .entry-meta .by-author {
     display: inline
@@ -1179,8 +1179,12 @@ table.tix_tickets_table td.tix-column-remaining {
         float: none;
         margin: 0;
         padding: 0 4%;
-        width: 92%
     }
+    #primary , #secondary{
+        float: left;
+    }
+    #primary {width: 70%;}  
+    #secondary{width: 25%;}
     .site-content nav {
         margin: 0
     }
@@ -1396,7 +1400,7 @@ table.tix_tickets_table td.tix-column-remaining {
     }
     #main {
         margin: 89px auto 0;
-        max-width: 940px;
+        max-width: 1120px;
         overflow: hidden
     }
     body.home #main {
