@@ -17,11 +17,10 @@ html{margin: 0!important;}
     -ms-transition: background-color 1000ms linear;
     transition: background-color 1000ms linear; }
 .menu-menu-1-container ul li a:hover{background: #8a1c12;}
-body.home .site{background-size: 130%; background: #fff url("https://2016.sanjose.wordcamp.org/files/2016/08/Costa-Rica-San-Jose-View.jpg") no-repeat scroll 0px 0px / 140% auto; min-height: 90px; }
+body.home .site{ min-height: 90px; }
 }
 .home {
-    background: #fff url('https://2016.sanjose.wordcamp.org/files/2016/08/Costa-Rica-San-Jose-View.jpg') no-repeat ;
-    background-size: 100%;
+    background: #fff ;
     margin: 0;
     max-width: 100%;
     min-width: 250px;
@@ -1593,34 +1592,35 @@ To learn how this works, see http://wp.me/PEmnE-Bt
     clear: both;
 }
 .slider {
-  width: 100%;
-  height: 600px;
-  margin: 0;
-  position: relative;
+    width: 100%;
+    height: 650px;
+    margin: -80px 0 0 -40px;
+    position: fixed;
+    background: #fff url("https://2016.sanjose.wordcamp.org/files/2016/08/Costa-Rica-San-Jose-View.jpg") no-repeat scroll 0px 0px
 }
-.slide1,.slide2,.slide3,.slide4,.slide5,.slide6 {
+.slide1,.slide2,.slide3 {
   position: absolute;
   width: 100%;
   height: 100%;
 }
 .slide1 {
-  background-image: url('https://2016.sanjose.wordcamp.org/files/2016/08/cr-city-wordcamp.jpg');
+  background-image: url('https://2016.sanjose.wordcamp.org/files/2016/08/cr-campers-wordcamp.jpg');
       background-size: cover;
-    animation:fade 8s infinite;
-    -webkit-animation:fade 8s infinite;
+    animation:fade 10s infinite;
+    -webkit-animation:fade 10s infinite;
 
 } 
 .slide2 {
   background-image: url('https://2016.sanjose.wordcamp.org/files/2016/08/cr-beach-wordcamp.jpg');
       background-size: cover;
-    animation:fade2 8s infinite;
-    -webkit-animation:fade2 8s infinite;
+    animation:fade2 10s infinite;
+    -webkit-animation:fade2 10s infinite;
 }
 .slide3 {
-    background-image: url('https://2016.sanjose.wordcamp.org/files/2016/08/cr-town-wordcamp.jpg');
+    background-image: url('https://2016.sanjose.wordcamp.org/files/2016/08/cr-jungle-wordcamp.jpg');
       background-size: cover;
     animation:fade3 10s infinite;
-    -webkit-animation:fade3 8s infinite;
+    -webkit-animation:fade3 10s infinite;
 }
 
 
@@ -1719,447 +1719,6 @@ To learn how this works, see http://wp.me/PEmnE-Bt
     .containerSlide > header{padding-top: 0!important;}
 }
 
-.cb-slideshow,
-.cb-slideshow:after {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    z-index: 0;
-}
-
-.cb-slideshow {
-    list-style: none;
-}
-
-.cb-slideshow li {
-    list-style: none;
-}
-
-.cb-slideshow li span {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    color: transparent;
-    background-size: cover;
-    background-position: 50% 50%;
-    background-repeat: none;
-    opacity: 0;
-    z-index: 0;
-    -webkit-backface-visibility: hidden;
-    -webkit-animation: imageAnimation 36s linear infinite 0;
-    -moz-animation: imageAnimation 36s linear infinite 0;
-    -o-animation: imageAnimation 36s linear infinite 0;
-    -ms-animation: imageAnimation 36s linear infinite 0;
-    animation: imageAnimation 36s linear infinite 0;
-}
-
-.cb-slideshow li div {
-    z-index: 1000;
-    position: absolute;
-    bottom: 30px;
-    left: 0;
-    width: 100%;
-    text-align: center;
-    opacity: 0;
-    -webkit-animation: titleAnimation 36s linear infinite 0;
-    -moz-animation: titleAnimation 36s linear infinite 0;
-    -o-animation: titleAnimation 36s linear infinite 0;
-    -ms-animation: titleAnimation 36s linear infinite 0;
-    animation: titleAnimation 36s linear infinite 0;
-}
-
-.cb-slideshow li div h3 {
-    font-family: 'Libre Franklin', sans-serif;
-    font-size: 100px;
-    padding: 0;
-    line-height: 200px;
-    color: rgba(198,48,38,0.8);
-}
-
-.cb-slideshow li:nth-child(1) span {
-    background-image: url('https://2016.sanjose.wordcamp.org/files/2016/08/cr-city-wordcamp.jpg');
-}
-
-.cb-slideshow li:nth-child(2) span {
-    background-image: url('https://2016.sanjose.wordcamp.org/files/2016/08/cr-beach-wordcamp.jpg');
-    -webkit-animation-delay: 6s;
-    -moz-animation-delay: 6s;
-    -o-animation-delay: 6s;
-    -ms-animation-delay: 6s;
-    animation-delay: 6s;
-}
-
-.cb-slideshow li:nth-child(3) span {
-    background-image: url('https://2016.sanjose.wordcamp.org/files/2016/08/cr-town-wordcamp.jpg');
-    -webkit-animation-delay: 12s;
-    -moz-animation-delay: 12s;
-    -o-animation-delay: 12s;
-    -ms-animation-delay: 12s;
-    animation-delay: 12s;
-}
-
-.cb-slideshow li:nth-child(4) span {
-    background-image: url('https://2016.sanjose.wordcamp.org/files/2016/08/cr-feria-wordcamp.jpg');
-    -webkit-animation-delay: 18s;
-    -moz-animation-delay: 18s;
-    -o-animation-delay: 18s;
-    -ms-animation-delay: 18s;
-    animation-delay: 18s;
-}
-
-.cb-slideshow li:nth-child(5) span {
-    background-image: url('https://2016.sanjose.wordcamp.org/files/2016/08/cr-jungle-wordcamp.jpg');
-    -webkit-animation-delay: 24s;
-    -moz-animation-delay: 24s;
-    -o-animation-delay: 24s;
-    -ms-animation-delay: 24s;
-    animation-delay: 24s;
-}
-
-.cb-slideshow li:nth-child(6) span {
-    background-image: url('https://2016.sanjose.wordcamp.org/files/2016/08/cr-campers-wordcamp.jpg');
-    -webkit-animation-delay: 30s;
-    -moz-animation-delay: 30s;
-    -o-animation-delay: 30s;
-    -ms-animation-delay: 30s;
-    animation-delay: 30s;
-}
-
-.cb-slideshow li:nth-child(2) div {
-    -webkit-animation-delay: 6s;
-    -moz-animation-delay: 6s;
-    -o-animation-delay: 6s;
-    -ms-animation-delay: 6s;
-    animation-delay: 6s;
-}
-
-.cb-slideshow li:nth-child(3) div {
-    -webkit-animation-delay: 12s;
-    -moz-animation-delay: 12s;
-    -o-animation-delay: 12s;
-    -ms-animation-delay: 12s;
-    animation-delay: 12s;
-}
-
-.cb-slideshow li:nth-child(4) div {
-    -webkit-animation-delay: 18s;
-    -moz-animation-delay: 18s;
-    -o-animation-delay: 18s;
-    -ms-animation-delay: 18s;
-    animation-delay: 18s;
-}
-
-.cb-slideshow li:nth-child(5) div {
-    -webkit-animation-delay: 24s;
-    -moz-animation-delay: 24s;
-    -o-animation-delay: 24s;
-    -ms-animation-delay: 24s;
-    animation-delay: 24s;
-}
-
-.cb-slideshow li:nth-child(6) div {
-    -webkit-animation-delay: 30s;
-    -moz-animation-delay: 30s;
-    -o-animation-delay: 30s;
-    -ms-animation-delay: 30s;
-    animation-delay: 30s;
-}
-
-/* Animation for the slideshow images */
-@-webkit-keyframes imageAnimation {
-    0% {
-        opacity: 0;
-        -webkit-animation-timing-function: ease-in;
-    }
-    
-    8% {
-        opacity: 1;
-        -webkit-transform: scale(1.05);
-        -webkit-animation-timing-function: ease-out;
-    }
-    
-    17% {
-        opacity: 1;
-        -webkit-transform: scale(1.1);
-    }
-    
-    25% {
-        opacity: 0;
-        -webkit-transform: scale(1.1);
-    }
-    
-    100% {
-        opacity: 0;
-    }
-}
-
-@-moz-keyframes imageAnimation {
-    0% {
-        opacity: 0;
-        -moz-animation-timing-function: ease-in;
-    }
-    
-    8% {
-        opacity: 1;
-        -moz-transform: scale(1.05);
-        -moz-animation-timing-function: ease-out;
-    }
-    
-    17% {
-        opacity: 1;
-        -moz-transform: scale(1.1);
-    }
-    
-    25% {
-        opacity: 0;
-        -moz-transform: scale(1.1);
-    }
-    
-    100% {
-        opacity: 0;
-    }
-}
-
-@-o-keyframes imageAnimation {
-    0% {
-        opacity: 0;
-        -o-animation-timing-function: ease-in;
-    }
-    
-    8% {
-        opacity: 1;
-        -o-transform: scale(1.05);
-        -o-animation-timing-function: ease-out;
-    }
-    
-    17% {
-        opacity: 1;
-        -o-transform: scale(1.1);
-    }
-    
-    25% {
-        opacity: 0;
-        -o-transform: scale(1.1);
-    }
-    
-    100% {
-        opacity: 0;
-    }
-}
-
-@-ms-keyframes imageAnimation {
-    0% {
-        opacity: 0;
-        -ms-animation-timing-function: ease-in;
-    }
-    
-    8% {
-        opacity: 1;
-        -ms-transform: scale(1.05);
-        -ms-animation-timing-function: ease-out;
-    }
-    
-    17% {
-        opacity: 1;
-        -ms-transform: scale(1.1);
-    }
-    
-    25% {
-        opacity: 0;
-        -ms-transform: scale(1.1);
-    }
-    
-    100% {
-        opacity: 0;
-    }
-}
-
-@keyframes imageAnimation {
-    0% {
-        opacity: 0;
-        animation-timing-function: ease-in;
-    }
-    
-    8% {
-        opacity: 1;
-        transform: scale(1.05);
-        animation-timing-function: ease-out;
-    }
-    
-    17% {
-        opacity: 1;
-        transform: scale(1.1);
-    }
-    
-    25% {
-        opacity: 0;
-        transform: scale(1.1);
-    }
-    
-    100% {
-        opacity: 0;
-    }
-}
-
-/* Animation for the title */
-@-webkit-keyframes titleAnimation {
-    0% {
-        opacity: 0;
-        -webkit-transform: translateY(200px);
-    }
-    
-    8% {
-        opacity: 1;
-        -webkit-transform: translateY(0px);
-    }
-    
-    17% {
-        opacity: 1;
-        -webkit-transform: scale(1);
-    }
-    
-    19% {
-        opacity: 0;
-    }
-    
-    25% {
-        opacity: 0;
-        -webkit-transform: scale(10);
-    }
-    
-    100% {
-        opacity: 0;
-    }
-}
-
-@-moz-keyframes titleAnimation {
-    0% {
-        opacity: 0;
-        -moz-transform: translateY(200px);
-    }
-    
-    8% {
-        opacity: 1;
-        -moz-transform: translateY(0px);
-    }
-    
-    17% {
-        opacity: 1;
-        -moz-transform: scale(1);
-    }
-    
-    19% {
-        opacity: 0;
-    }
-    
-    25% {
-        opacity: 0;
-        -moz-transform: scale(10);
-    }
-    
-    100% {
-        opacity: 0;
-    }
-}
-
-@-o-keyframes titleAnimation {
-    0% {
-        opacity: 0;
-        -o-transform: translateY(200px);
-    }
-    
-    8% {
-        opacity: 1;
-        -o-transform: translateY(0px);
-    }
-    
-    17% {
-        opacity: 1;
-        -o-transform: scale(1);
-    }
-    
-    19% {
-        opacity: 0;
-    }
-    
-    25% {
-        opacity: 0;
-        -o-transform: scale(10);
-    }
-    
-    100% {
-        opacity: 0;
-    }
-}
-
-@-ms-keyframes titleAnimation {
-    0% {
-        opacity: 0;
-        -ms-transform: translateY(200px);
-    }
-    
-    8% {
-        opacity: 1;
-        -ms-transform: translateY(0px);
-    }
-    
-    17% {
-        opacity: 1;
-        -ms-transform: scale(1);
-    }
-    
-    19% {
-        opacity: 0;
-    }
-    
-    25% {
-        opacity: 0;
-        -webkit-transform: scale(10);
-    }
-    
-    100% {
-        opacity: 0;
-    }
-}
-
-@keyframes titleAnimation {
-    0% {
-        opacity: 0;
-        transform: translateY(200px);
-    }
-    
-    8% {
-        opacity: 1;
-        transform: translateY(0px);
-    }
-    
-    17% {
-        opacity: 1;
-        transform: scale(1);
-    }
-    
-    19% {
-        opacity: 0;
-    }
-    
-    25% {
-        opacity: 0;
-        transform: scale(10);
-    }
-    
-    100% {
-        opacity: 0;
-    }
-}
-
-/* Show at least something when animations not supported */
-.no-cssanimations .cb-slideshow li span {
-    opacity: 1;
-}
 
 @media screen and (max-width: 1140px) {
     .cb-slideshow li div h3 {
