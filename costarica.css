@@ -7,11 +7,15 @@
 @media screen and (max-width: 600px) {
 html{margin: 0!important;}
 .home #wpadminbar{display:none!important;}
-.menu-menu-1-container{background: #c63025; height: 100%; width: 80%; box-shadow: -2px 1px 3px #333; float:right; position: fixed; right: -1px;}
+.menu-menu-1-container{background: #c63025; min-height: 630px; width: 80%; box-shadow: -2px 1px 3px #333; float:right; position: fixed; right: -1px;}
 .menu-menu-1-container ul{list-style: none; height: 100%; margin: 0px;}
 .menu-menu-1-container .menu {margin:80px 5px 20px;}
 .menu-menu-1-container ul li{ font-size: 18px; padding: 0;border-top: solid 1px #8a1c12; }
-.menu-menu-1-container ul li a{color: #fff; text-decoration:none; display: block; width: 100%;padding: 10px 0px 10px 10px; }
+.menu-menu-1-container ul li a{color: #fff; text-decoration:none; display: block; width: 100%;padding: 10px 0px 10px 10px;-webkit-transition: background-color 1000ms linear;
+    -moz-transition: background-color 1000ms linear;
+    -o-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear; }
 .menu-menu-1-container ul li a:hover{background: #8a1c12;}
 body.home .site{background-size: 130%; background: #fff url("https://2016.sanjose.wordcamp.org/files/2016/08/Costa-Rica-San-Jose-View.jpg") no-repeat scroll 0px 0px / 140% auto; min-height: 90px; }
 }
