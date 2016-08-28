@@ -482,9 +482,14 @@ a:hover {
 }
 #page .entry-header h1,
 #page .archive-header h1 {
-    color: #fff;
-    font-size: 28px;
-    line-height: 32px;
+    color: #c63025;
+    font-family: "Libre Franklin",sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    left: 0;
+    letter-spacing: 1px;
+    line-height: 34px;
+    padding: 0 30px 0 0;
     text-align: left
 }
 .entry-header .entry-title a {
@@ -1123,7 +1128,7 @@ table.tix_tickets_table td.tix-column-remaining {
         overflow: hidden
     }
     #main {
-        margin: 89px auto 0
+        margin: -160px auto 0
     }
     body.home #main {
         margin: 860px auto 0
@@ -1433,7 +1438,7 @@ table.tix_tickets_table td.tix-column-remaining {
     }
 }
 article.page .entry-content {
-    padding: 75px 0 15px
+    padding: 5px 30px 15px
 }
 body.single-post .site-content article,
 body.single-wcb_speaker .site-content article,
@@ -1561,7 +1566,7 @@ ul#session-speaker-names li {
     display: none
 }
 #after-header-widgets .widget{background-color: none!important;}
-.inHeader{background: url("http://2016.sanjose.wordcamp.org/files/2016/08/Costa-Rica-inner-1.jpg") no-repeat; min-height: 90px; width: 100%;}
+.inHeader{background: url("http://2016.sanjose.wordcamp.org/files/2016/08/Costa-Rica-inner-1.jpg") no-repeat; min-height: 360px; width: 100%;}
 
 #after-header-widgets .textwidget{margin: -20px -40px 0;}
 #masthead .site-navigation{background: url("http://2016.sanjose.wordcamp.org/files/2016/08/wordCampCR.png") 40px 17px no-repeat; min-height: 90px;}
@@ -1747,7 +1752,7 @@ To learn how this works, see http://wp.me/PEmnE-Bt
 .sub-menu .menu-item a{ padding: 7px 15px!important; text-align: left;}
 .wp-caption-text{display: none;}
 .home .category-news{width: 48%; margin:1%!important;float: left; position: relative; padding:10px!important;border: solid 1px #ff7b6f!important; }
-body.home #secondary::before {
+body #secondary::before {
     background-color: #fff;
     color: #c63025;
     content: "Sponsors";
