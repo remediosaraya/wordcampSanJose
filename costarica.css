@@ -301,7 +301,7 @@ body.template-front-page #page .widget-area {
     left: 0;
     overflow: hidden;
     position: absolute;
-    top: 570px;
+    top: 500px;
     width: 100%;
     margin: 0
 }
@@ -1122,7 +1122,7 @@ table.tix_tickets_table td.tix-column-remaining {
         margin: 89px auto 0
     }
     body.home #main {
-        margin: 933px auto 0
+        margin: 840px auto 0
     }
     body.page-template-full-width #page .entry-header {
         padding: 33px 0;
@@ -1406,7 +1406,7 @@ table.tix_tickets_table td.tix-column-remaining {
         overflow: hidden
     }
     body.home #main {
-        margin: 1140px auto 0
+        margin: 840px auto 0
     }
     .menu-primary-menu-container {
         background: transparent url('https://2015.buenosaires.wordcamp.org/files/2015/03/wcba-logo-web2.png') no-repeat top left;
@@ -1740,7 +1740,7 @@ To learn how this works, see http://wp.me/PEmnE-Bt
 .sub-menu .menu-item a{ padding: 7px 15px!important; text-align: left;}
 .wp-caption-text{display: none;}
 .home .category-news{width: 48%; margin:1%!important;float: left; padding:10px!important;border: solid 1px #ff7b6f!important; }
-body.home #secundary::before {
+body.home #secondary::before {
     background-color: #fff;
     color: #c63025;
     content: "Sponsors";
