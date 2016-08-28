@@ -1,5 +1,4 @@
 @import "//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css";
-@import "https://fonts.googleapis.com/css?family=Roboto:400,500,700";
 .site-title,
 .site-description {
     clip: rect(1px, 1px, 1px, 1px);
@@ -8,9 +7,10 @@
 @media screen and (max-width: 600px) {
 html{margin: 0!important;}
 .home #wpadminbar{display:none!important;}
-.menu-menu-1-container{background: #c63025; height: 100%;}
+.menu-menu-1-container{background: #c63025; height: 100%; width: 80%; box-shadow: 2px 2px 3px #333;}
 .menu-menu-1-container ul{list-style: none; height: 100%; margin: 0px;}
-.menu-menu-1-container ul li{ font-size: 18px; padding: 10px 15px;border-bottom: solid 1px #8a1c12; }
+.menu-menu-1-container .menu {margin:80px 5px 20px;}
+.menu-menu-1-container ul li{ font-size: 18px; padding: 10px 15px;border-top: solid 1px #8a1c12; }
 .menu-menu-1-container ul li a{color: #fff; text-decoration:none;  }
 body.home .site{background-size: 130%; background: #fff url("https://2016.sanjose.wordcamp.org/files/2016/08/Costa-Rica-San-Jose-View.jpg") no-repeat scroll 0px 0px / 140% auto; min-height: 90px; }
 }
@@ -1564,6 +1564,18 @@ ul#session-speaker-names li {
     width: 29px;
     right: 1.25rem;background: url('http://2016.sanjose.wordcamp.org/files/2016/08/icon-burger-black.png');
 }
+.site-header .menu-toggle :hover{-webkit-transition: background-image 0.2s ease-in-out;
+transition: background-image 0.2s ease-in-out;background: url('http://2016.sanjose.wordcamp.org/files/2016/08/icon-burger-x.png')!important;
+}
+.site-header .toggled-on {
+    position: absolute;
+    top: 1.8rem;
+    font-size: 0!important;
+    height: 29px;
+    width: 29px;
+    right: 1.25rem;background: url('http://2016.sanjose.wordcamp.org/files/2016/08/icon-burger-x.png')!important;
+}
+.site-header .toggled-on :hover{transform: rotate(90deg);}
 
 /*////// home slider///////*/
 /*
