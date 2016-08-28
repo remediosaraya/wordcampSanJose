@@ -1604,23 +1604,23 @@ To learn how this works, see http://wp.me/PEmnE-Bt
   height: 100%;
 }
 .slide1 {
-  background-image: url('https://2016.sanjose.wordcamp.org/files/2016/08/cr-campers-wordcamp.jpg');
+  background-image: url('https://2016.sanjose.wordcamp.org/files/2016/08/cr-city-wordcamp.jpg');
       background-size: cover;
-    animation:fade 10s infinite;
-    -webkit-animation:fade 10s infinite;
+    animation:fade 50s infinite;
+    -webkit-animation:fade 50s infinite;
 
 } 
 .slide2 {
   background-image: url('https://2016.sanjose.wordcamp.org/files/2016/08/cr-beach-wordcamp.jpg');
       background-size: cover;
-    animation:fade2 10s infinite;
-    -webkit-animation:fade2 10s infinite;
+    animation:fade2 50s infinite;
+    -webkit-animation:fade2 50s infinite;
 }
 .slide3 {
     background-image: url('https://2016.sanjose.wordcamp.org/files/2016/08/cr-jungle-wordcamp.jpg');
       background-size: cover;
-    animation:fade3 10s infinite;
-    -webkit-animation:fade3 10s infinite;
+    animation:fade3 50s infinite;
+    -webkit-animation:fade3 50s infinite;
 }
 
 
