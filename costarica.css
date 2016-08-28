@@ -480,18 +480,7 @@ a:hover {
     margin: 0;
     position: relative
 }
-#page .entry-header h1,
-#page .archive-header h1 {
-    color: #c63025;
-    font-family: "Libre Franklin",sans-serif;
-    font-size: 30px;
-    font-weight: 500;
-    left: 0;
-    letter-spacing: 1px;
-    line-height: 34px;
-    padding: 0 30px 0 0;
-    text-align: left
-}
+
 .entry-header .entry-title a {
     color: #fff;
     transition: all .5s ease
@@ -513,13 +502,7 @@ body.page-template-full-width #page .entry-header {
     text-align: center;
     padding: 58px 0
 }
-body.page-template-full-width #page .entry-header h1 {
-    color: #fff;
-    font-size: 42px;
-    line-height: 48px;
-    text-align: center;
-    font-weight: 400
-}
+
 body.page-template-full-width #page .entry-title:before,
 body.page-template-full-width #page .entry-title:after {
     content: "";
@@ -545,12 +528,7 @@ body.archive #page .entry-header {
     margin: 0 0 20px;
     text-align: left
 }
-body.blog #page .entry-header h1,
-body.archive #page .entry-header h1 {
-    font-size: 22px;
-    line-height: 24px;
-    text-align: left
-}
+
 body.blog .entry-content,
 body.archive .entry-content {
     margin: 0;
@@ -1128,7 +1106,7 @@ table.tix_tickets_table td.tix-column-remaining {
         overflow: hidden
     }
     #main {
-        margin: -160px auto 0
+        margin: -160px auto 0!important;
     }
     body.home #main {
         margin: 860px auto 0
@@ -1150,11 +1128,7 @@ table.tix_tickets_table td.tix-column-remaining {
         padding: 14px 0 0;
         height: 89px
     }
-    #page .entry-header h1,
-    #page .archive-header h1 {
-        font-size: 22px;
-        line-height: 26px
-    }
+ 
     .entry-content {
         padding: 50px 0
     }
@@ -1238,9 +1212,7 @@ table.tix_tickets_table td.tix-column-remaining {
         line-height: 26px;
         margin: 0 0 10px
     }
-    #main {
-        margin: 48px auto 0
-    }
+   
     body.home #main {
         margin: 590px auto 0
     }
@@ -1410,7 +1382,6 @@ table.tix_tickets_table td.tix-column-remaining {
         padding: 0
     }
     #main {
-        margin: 89px auto 0;
         max-width: 1120px;
         overflow: hidden
     }
@@ -1437,9 +1408,7 @@ table.tix_tickets_table td.tix-column-remaining {
         background-size: contain
     }
 }
-article.page .entry-content {
-    padding: 5px 30px 15px
-}
+
 body.single-post .site-content article,
 body.single-wcb_speaker .site-content article,
 body.single-wcb_session .site-content article {
@@ -1566,7 +1535,7 @@ ul#session-speaker-names li {
     display: none
 }
 #after-header-widgets .widget{background-color: none!important;}
-.inHeader{background: url("http://2016.sanjose.wordcamp.org/files/2016/08/Costa-Rica-inner-1.jpg") no-repeat; min-height: 360px; width: 100%;}
+.inHeader{background: url("http://2016.sanjose.wordcamp.org/files/2016/08/Costa-Rica-inner-1.jpg") no-repeat; height: 300px; width: 100%;}
 
 #after-header-widgets .textwidget{margin: -20px -40px 0;}
 #masthead .site-navigation{background: url("http://2016.sanjose.wordcamp.org/files/2016/08/wordCampCR.png") 40px 17px no-repeat; min-height: 90px;}
@@ -1781,5 +1750,17 @@ body.blog #page .entry-header, body.archive #page .entry-header {
     top: 1px;
     width: 101%;
 }
-
-
+#page .entry-header h1 {
+    color: #c63025;
+    font-family: "Libre Franklin",sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    left: 0;
+    letter-spacing: 1px;
+    line-height: 34px;
+    padding: 0 30px 0 0;
+    text-align: left
+}
+article.page .entry-content {
+    padding: 5px 30px 15px
+}
