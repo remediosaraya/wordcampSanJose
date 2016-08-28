@@ -278,7 +278,7 @@ button:active {
 .single-author .entry-meta .by-author {
     display: inline
 }
-
+.home .sep{display: none;}
 body.template-front-page #page #main {
     background-color: #fff;
     padding-top: 20px
@@ -1561,6 +1561,9 @@ ul#session-speaker-names li {
     display: none
 }
 #after-header-widgets .widget{background-color: none!important;}
+.inHeader{background: url("http://2016.sanjose.wordcamp.org/files/2016/08/Costa-Rica-inner-1.jpg") no-repeat; min-height: 90px; width: 100%;}
+
+#after-header-widgets .textwidget{margin: -20px -40px 0;}
 #masthead .site-navigation{background: url("http://2016.sanjose.wordcamp.org/files/2016/08/wordCampCR.png") 40px 17px no-repeat; min-height: 90px;}
 .site-header .menu-toggle {
     position: absolute;
