@@ -2124,4 +2124,4 @@ To learn how this works, see http://wp.me/PEmnE-Bt
 }
 .sub-menu .menu-item a{ padding: 7px 15px!important; text-align: left;}
 .wp-caption-text{display: none;}
-.home .category-news{width: 47%; margin:10px 1%;float: left; }
+.home .category-news{width: 48%; margin:1%!important;float: left; padding:10px!important;border: solid 1px #ff7b6f; }
