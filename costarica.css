@@ -40,7 +40,7 @@ body.home .site{ min-height: 90px; }
 }
 body.home #primary {
     margin: 0;
-    padding: 80px 0 0
+    padding: 40px 0 0
 }
 body.home #primary::before {
     background-color: #fff;
@@ -54,7 +54,7 @@ body.home #primary::before {
     line-height: 34px;
     padding: 0 40px 0 0;
     left: 0;
-    top: -79px;
+    top: -43px;
     position: relative;
     text-transform: uppercase;
     z-index: 2
@@ -278,6 +278,7 @@ button:active {
 .single-author .entry-meta .by-author {
     display: inline
 }
+.home .entry-meta{display: none;}
 body.template-front-page #page #main {
     background-color: #fff;
     padding-top: 20px
@@ -328,22 +329,22 @@ body.home #page #text-5 {
     width: 33.33%
 }
 #page #text-5 .header-widget-inner {
-    padding: 110px 35px 0
+    padding: 160px 30px 0;
 }
 #page #text-5 .textwidget {
     padding: 0
 }
 #page #text-5 .dev-widget .header-widget-inner {
-    background: transparent url('http://2016.sanjose.wordcamp.org/files/2016/08/wordcamp-dev-1.png') no-repeat top center;
-    background-size: 64px 64px
+    background: transparent url('http://2016.sanjose.wordcamp.org/files/2016/08/wordcamp-dev.png') no-repeat top center;
+    background-size: 145px 141px
 }
 #page #text-5 .blogger-widget .header-widget-inner {
-    background: transparent url('http://2016.sanjose.wordcamp.org/files/2016/08/wordcamp-blogger-1.png') no-repeat top center;
-    background-size: 64px 64px
+    background: transparent url('http://2016.sanjose.wordcamp.org/files/2016/08/wordcamp-blogger.png') no-repeat top center;
+    background-size: 145px 141px
 }
 #page #text-5 .ux-widget .header-widget-inner {
-    background: transparent url('http://2016.sanjose.wordcamp.org/files/2016/08/wordcamp-ux-1.png') no-repeat top center;
-    background-size: 64px 64px
+    background: transparent url('http://2016.sanjose.wordcamp.org/files/2016/08/wordcamp-ux.png') no-repeat top center;
+    background-size: 145px 141px
 }
 #page #text-5 .header-widget h4 {
     font-size: 20px;
@@ -1762,7 +1763,6 @@ body.home #secondary::before {
 }
 body.blog #page .entry-header, body.archive #page .entry-header {
     background: rgba(198, 48, 38, 0.95) none repeat scroll 0 0;
-    border-radius: 0 0 70px;
     box-shadow: -1px 3px 4px #333;
     height: auto;
     left: -5px;
@@ -1771,8 +1771,7 @@ body.blog #page .entry-header, body.archive #page .entry-header {
     position: absolute;
     text-align: left;
     top: 1px;
-    width: 97%;
+    width: 101%;
 }
-.home .category-news{box-shadow: 1px 1px 3px #333;}
 
 
