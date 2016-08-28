@@ -37,7 +37,7 @@ body.home #primary::before {
     color: #c63025;
     content: 'Blog';
     display: inline-block;
-    font-family: 'Passion One', cursive;
+    font-family: 'Libre Franklin', sans-serif;;
     font-size: 34px;
     font-weight: 600;
     letter-spacing: 1px;
@@ -91,7 +91,7 @@ footer[role="contentinfo"] a:hover {
     color: rgba(255, 255, 255, 0.65)
 }
 .site-info {
-    font-family: 'Passion One', cursive;
+    font-family: 'Libre Franklin', sans-serif;;
     font-size: 16px;
     line-height: 89px;
     margin: 0 auto;
@@ -145,7 +145,7 @@ footer[role="contentinfo"] a:hover {
 .main-navigation li a {
     color: #000;
     font-size: 16px;
-    font-family: 'Passion One', cursive;
+    font-family: 'Libre Franklin', sans-serif;;
     letter-spacing: 1px;
     line-height: 89px;
     padding: 0 0 0 10px
@@ -350,7 +350,7 @@ body.home #page #text-5 {
     text-decoration: none
 }
 #page #text-5 .header-widget p {
-    font-family: 'Passion One', cursive;
+    font-family: 'Libre Franklin', sans-serif;;
     font-size: 14px;
     line-height: 18px
 }
@@ -399,7 +399,7 @@ body.home #page #text-4 {
     border-radius: 5px;
     color: #fff;
     display: inline-block;
-    font-family: 'Passion One', cursive;
+    font-family: 'Libre Franklin', sans-serif;;
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 1px;
@@ -552,7 +552,7 @@ body.archive .entry-content {
     border-radius: 5px;
     color: #fff;
     display: inline-block;
-    font-family: 'Passion One', cursive;
+    font-family: 'Libre Franklin', sans-serif;;
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 1px;
@@ -568,7 +568,7 @@ body.archive .entry-content {
     text-decoration: none
 }
 #page h1 {
-    font-family: 'Passion One', cursive;
+    font-family: 'Libre Franklin', sans-serif;;
     font-size: 22px;
     font-weight: 600;
     letter-spacing: 1px;
@@ -576,7 +576,7 @@ body.archive .entry-content {
     text-transform: uppercase
 }
 h2 {
-    font-family: 'Passion One', cursive;
+    font-family: 'Libre Franklin', sans-serif;;
     font-weight: 600
 }
 .entry-content h2 {
@@ -592,11 +592,11 @@ h2 {
     color: #c63025
 }
 h3 {
-    font-family: 'Passion One', cursive;
+    font-family: 'Libre Franklin', sans-serif;;
     font-weight: 600
 }
 h4 {
-    font-family: 'Passion One', cursive;
+    font-family: 'Libre Franklin', sans-serif;;
     font-weight: 700
 }
 #page h4 {
@@ -701,7 +701,7 @@ body.blog .comments-link {
     font-size: 14px;
     line-height: 18px;
     color: #c63025;
-    font-family: 'Passion One', cursive;
+    font-family: 'Libre Franklin', sans-serif;;
     font-weight: 500
 }
 #page footer.entry-meta a {
@@ -1609,7 +1609,7 @@ To learn how this works, see http://wp.me/PEmnE-Bt
 }
 
 .containerSlide > header h1 span {
-    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Passion One; , cursive;    
     font-size: 42px;
     position: relative;
     font-weight: 400;
