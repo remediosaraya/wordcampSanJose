@@ -34,9 +34,9 @@ body.home .site{background-size: 130%; background: #fff url("https://2016.sanjos
 }
 #primary {
     margin: 0;
-    padding: 0 4% 0 0;
+    padding: 0;
     position: relative;
-    width: 63%
+    width: 100%
 }
 body.home #primary {
     margin: 0;
@@ -45,7 +45,7 @@ body.home #primary {
 body.home #primary::before {
     background-color: #fff;
     color: #c63025;
-    content: 'Blog';
+    content: 'Noticias';
     display: inline-block;
     font-family: 'Libre Franklin', sans-serif;;
     font-size: 34px;
@@ -73,7 +73,7 @@ body.home #primary::after {
 #secondary {
     margin: 165px 0 0;
     padding: 75px 0 0;
-    width: 24%
+    width: 100%
 }
 body.home #secondary {
     margin: 0;
@@ -2119,7 +2119,9 @@ To learn how this works, see http://wp.me/PEmnE-Bt
     .cb-slideshow li div h3 {
         font-size: 50px;
     }
+    .home .category-news{width: 97%; margin:10px 1%; }
     .sub-menu{margin: 10px 0 0 -10px;}
 }
 .sub-menu .menu-item a{ padding: 7px 15px!important; text-align: left;}
 .wp-caption-text{display: none;}
+.home .category-news{width: 47%; margin:10px 1%;float: left; }
