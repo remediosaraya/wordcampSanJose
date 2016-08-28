@@ -333,16 +333,16 @@ body.home #page #text-5 {
 #page #text-5 .textwidget {
     padding: 0
 }
-#page #text-5 .attend-widget .header-widget-inner {
-    background: transparent url('https://2015.buenosaires.wordcamp.org/files/2015/03/info-attend.png') no-repeat top center;
+#page #text-5 .dev-widget .header-widget-inner {
+    background: transparent url('http://2016.sanjose.wordcamp.org/files/2016/08/wordcamp-dev.png') no-repeat top center;
     background-size: 64px 64px
 }
-#page #text-5 .sponsor-widget .header-widget-inner {
-    background: transparent url('https://2015.buenosaires.wordcamp.org/files/2015/03/info-sponsors.png') no-repeat top center;
+#page #text-5 .blogger-widget .header-widget-inner {
+    background: transparent url('http://2016.sanjose.wordcamp.org/files/2016/08/wordcamp-blogger.png') no-repeat top center;
     background-size: 64px 64px
 }
-#page #text-5 .speaker-widget .header-widget-inner {
-    background: transparent url('https://2015.buenosaires.wordcamp.org/files/2015/03/info-speaker.png') no-repeat top center;
+#page #text-5 .ux-widget .header-widget-inner {
+    background: transparent url('http://2016.sanjose.wordcamp.org/files/2016/08/wordcamp-ux.png') no-repeat top center;
     background-size: 64px 64px
 }
 #page #text-5 .header-widget h4 {
