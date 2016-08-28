@@ -278,7 +278,7 @@ button:active {
 .single-author .entry-meta .by-author {
     display: inline
 }
-.home .entry-meta{display: none;}
+
 body.template-front-page #page #main {
     background-color: #fff;
     padding-top: 20px
@@ -324,7 +324,7 @@ body.home #page #text-5 {
     box-shadow: none;
     clear: none;
     float: left;
-    padding: 60px 0 0;
+    padding: 40px 0 0;
     text-align: center;
     width: 33.33%
 }
@@ -469,7 +469,7 @@ a:hover {
     margin: 0
 }
 .entry-header .comments-link {
-    display: none
+
 }
 #page .archive-header {
     margin: 0 0 75px
@@ -730,7 +730,7 @@ body.blog .comments-link {
 }
 body.page-template-default #page footer.entry-meta,
 body.page-template-page-templatesfull-width-php #page footer.entry-meta {
-    display: none
+
 }
 .edit-link {
     display: none
