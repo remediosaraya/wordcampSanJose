@@ -8,9 +8,11 @@
 @media screen and (max-width: 600px) {
 html{margin: 0!important;}
 .home #wpadminbar{display:none!important;}
-.menu-menu-1-container{background: #333; height: 100%;}
-.menu-menu-1-container ul{list-style: none;}
+.menu-menu-1-container{background: #c63025; height: 100%;}
+.menu-menu-1-container ul{list-style: none; height: 100%;}
 .menu-menu-1-container ul li{ font-size: 18px; padding: 10px; }
+.menu-menu-1-container ul li a{color: #fff; text-decoration:none; }
+body.home .site{background-size: 130%; background: #fff url("https://2016.sanjose.wordcamp.org/files/2016/08/Costa-Rica-San-Jose-View.jpg") no-repeat scroll 0px 0px / 140% auto; min-height: 90px; }
 }
 .home {
     background: #fff url('https://2016.sanjose.wordcamp.org/files/2016/08/Costa-Rica-San-Jose-View.jpg') no-repeat ;
@@ -107,7 +109,7 @@ footer[role="contentinfo"] a:hover {
     text-transform: uppercase
 }
 .site-info::after {
-    content: "WordCamp San Jose - Costa Rica - 5 de noviembre, 2016"
+    content: "WordCamp Costa Rica / 5 de noviembre, 2016"
 }
 .site-header {
     background-color: rgba(255,255,255,.8);
@@ -154,7 +156,7 @@ footer[role="contentinfo"] a:hover {
     padding: 0 0 0 10px
 }
 .main-navigation li a::after {
-    content: '|';
+    content: '/';
     padding: 0 0 0 13px
 }
 .main-navigation li.entradas a::after,
@@ -2099,4 +2101,6 @@ To learn how this works, see http://wp.me/PEmnE-Bt
         font-size: 50px;
     }
 }
-
+.sub-menu {padding-top: 20px;}
+.sub-menu .menu-item{ padding: 7px 15px; }
+.sub-menu .menu-item a{text-align: left;}
