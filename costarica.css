@@ -1598,8 +1598,8 @@ To learn how this works, see http://wp.me/PEmnE-Bt
 }
 
 .containerSlide > header h1 {
-    font-family: 'Oswald', arial, helvetica;
-    font-size: 42px;
+    font-family: 'Oswald', arial, helvetica!important;
+    font-size: 36px!important;
     position: relative;
     font-weight: 400;
     color: #fff;
@@ -1609,7 +1609,6 @@ To learn how this works, see http://wp.me/PEmnE-Bt
 }
 
 .containerSlide > header h1 span {
-    font-size: 42px;
     position: relative;
     font-weight: 400;
     color: #fff;
@@ -1619,16 +1618,15 @@ To learn how this works, see http://wp.me/PEmnE-Bt
 }
 
 .containerSlide h2 {
-    font-size: 20px;
-    font-style: italic;
+    font-size: 18px;
     color: #eee;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
-    margin: 5px 0 10px;
+    margin: 5px 0;
 }
 
 .containerSlide p {
     font-size: 16px;
-    color: #eee;
+    color: #fff;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
 }
 
