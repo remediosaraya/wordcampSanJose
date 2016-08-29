@@ -1782,3 +1782,7 @@ body.blog #page .entry-header, body.archive #page .entry-header {
 #nav-bottom{clear:both;}
 #footer-widgets h1{color:#fff!important;}
 .fb-page{border-radius: 3px;}
+.platino img{ width: 30%; float: left; }
+.oro img{width: 25%;float: left;}
+.plata img{width: 20%;float: left;}
+.bronce img{width: 15%;float: left;}
