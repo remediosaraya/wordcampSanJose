@@ -1782,7 +1782,7 @@ body.blog #page .entry-header, body.archive #page .entry-header {
 #nav-bottom{clear:both;}
 #footer-widgets h1{color:#fff!important;}
 .fb-page{border-radius: 3px;}
-.platino img{ width: 30%; float: left; }
-.oro img{width: 25%;float: left;}
-.plata img{width: 20%;float: left;}
-.bronce img{width: 15%;float: left;}
+.platino a{ width: 28%; float: left;border:1px solid #ff7b6f !important; margin:1%; height: 200px }
+.oro a{width: 23%;float: left;border:1px solid #ff7b6f !important; margin:1%;height: 170px;}
+.plata a{width: 18%;float: left;border:1px solid #ff7b6f !important; margin:1%;height: 130px;}
+.bronce a{width: 13%;float: left;border:1px solid #ff7b6f !important; margin:1%; height: 100px;}
