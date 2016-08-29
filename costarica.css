@@ -33,7 +33,7 @@ body.home .site{ min-height: 90px; }
 }
 #primary {
     margin: 0;
-    padding:0px 0 65px !important;
+    padding:30px 0 65px !important;
     position: relative;
     width: 100%
     background:#fff;
@@ -56,7 +56,7 @@ body.home #primary::before {
     line-height: 34px;
     padding: 0 40px 0 0;
     left: 0;
-    top: -43px;
+    top: -30px;
     position: relative;
     text-transform: uppercase;
     z-index: 2
@@ -1781,3 +1781,4 @@ body.blog #page .entry-header, body.archive #page .entry-header {
 }
 #nav-bottom{clear:both;}
 #footer-widgets h1{color:#fff!important;}
+.fb-page{border-radius: 3px;}
