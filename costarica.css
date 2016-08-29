@@ -1777,4 +1777,4 @@ body.blog #page .entry-header, body.archive #page .entry-header {
     text-align: left
 }
 #nav-bottom{clear:both;}
-#footer-widgets .widget-title{color#fff;}
+#footer-widgets h1{color:#fff!important;}
