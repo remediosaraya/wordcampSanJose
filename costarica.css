@@ -33,10 +33,12 @@ body.home .site{ min-height: 90px; }
 }
 #primary {
     margin: 0;
-    padding: 0;
+    padding:0px 0 65px !important;
     position: relative;
     width: 100%
     background:#fff;
+    border-bottom: solid 1px #e8e8e8;
+
 }
 body.home #primary {
     margin: 0;
@@ -112,7 +114,8 @@ footer[role="contentinfo"] a:hover {
 .site-info a {
     float: left;
     font-size: 14px;
-    text-transform: uppercase
+    text-transform: uppercase;
+    margin: 0 5px;
 }
 .site-info::after {
     content: "WordCamp Costa Rica / 5 de noviembre, 2016"
@@ -1735,7 +1738,7 @@ body #secondary::before {
     padding: 0 40px 0 0;
     position: relative;
     text-transform: uppercase;
-    top: 100px;
+    top: -15px;
     z-index: 2;
 }
 body #secondary::after {
