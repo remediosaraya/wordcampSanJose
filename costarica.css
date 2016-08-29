@@ -480,8 +480,7 @@ a:hover {
     margin: 0;
     position: relative
 }
-#page .entry-title h1 a{font-size: 22px!important;}
-.entry-header .entry-title a {
+.entry-header .entry-title a{font-size: 22px!important;
     color: #fff;
     transition: all .5s ease
 }
