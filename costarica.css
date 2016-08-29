@@ -1738,6 +1738,17 @@ body #secondary::before {
     top: 100px;
     z-index: 2;
 }
+body #secondary::after {
+    background-color: #e8e8e8;
+    content: '';
+    display: block;
+    height: 1px;
+    left: 0;
+    top: 17px;
+    position: absolute;
+    width: 100%;
+    z-index: 1
+}
 body.blog #page .entry-header, body.archive #page .entry-header {
     background: rgba(198, 48, 38, 0.95) none repeat scroll 0 0;
     box-shadow: -1px 3px 4px #333;
