@@ -480,7 +480,7 @@ a:hover {
     margin: 0;
     position: relative
 }
-
+.category-new .entry-title h1{font-size: 22px;}
 .entry-header .entry-title a {
     color: #fff;
     transition: all .5s ease
