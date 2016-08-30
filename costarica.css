@@ -1814,7 +1814,7 @@ body.blog #page .entry-header, body.archive #page .entry-header {
     top: -67px;
     z-index: 999;
 }
-.post .home .entry-header h1 {top: 1px; background: none!important;}
+body.home .post .entry-header h1 {top: 1px!important; background: none!important;}
 .post .entry-header h1 {top: -85px;}
 #nav-bottom{clear:both;}
 #footer-widgets h1{color:#fff!important;}
