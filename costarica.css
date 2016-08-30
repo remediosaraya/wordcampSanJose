@@ -37,13 +37,12 @@ body.home .site{ min-height: 90px; }
     position: relative;
     width: 100%
     background:#fff;
-    border-bottom: solid 1px #e8e8e8;
 
 }
 body #primary::before {
     background-color: #fff;
     color: #c63025;
-
+    content: '-';
     display: inline-block;
     font-family: 'Libre Franklin', sans-serif;;
     font-size: 34px;
@@ -59,7 +58,7 @@ body #primary::before {
 }
 body #primary::after {
     background-color: #e8e8e8;
-
+    content: '';
     display: block;
     height: 1px;
     left: 0;
