@@ -104,6 +104,7 @@ body.home #primary::after {
     padding: 75px 0 0;
     width: 100%;
     background: #fff;
+    border-top: solid 1px #e8e8e8;
 }
 body.home #secondary {
     margin: 0;
