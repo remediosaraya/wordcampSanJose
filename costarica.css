@@ -308,6 +308,7 @@ button:active {
 .single-author .entry-meta .by-author {
     display: inline
 }
+.entry-meta{color: #333;}
 .home .sep{display: none;}
 body.template-front-page #page #main {
     background-color: #fff;
@@ -1813,6 +1814,8 @@ body.blog #page .entry-header, body.archive #page .entry-header {
     top: -67px;
     z-index: 999;
 }
+.post .home .entry-header h1 {top: 1px; background: none!important;}
+.post .entry-header h1 {top: -85px;}
 #nav-bottom{clear:both;}
 #footer-widgets h1{color:#fff!important;}
 .fb-page{border-radius: 3px;}
