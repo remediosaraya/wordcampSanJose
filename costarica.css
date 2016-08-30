@@ -1440,7 +1440,9 @@ table.tix_tickets_table td.tix-column-remaining {
 }
 article.page .entry-content {
     padding: 5px 30px 15px
+    margin-top:-60px;
 }
+article.page .entry-content .entry-content{margin-top: 0;}
 body.single-post .site-content article,
 body.single-wcb_speaker .site-content article,
 body.single-wcb_session .site-content article {
@@ -1818,3 +1820,4 @@ body.blog #page .entry-header, body.archive #page .entry-header {
 .oro a{width: 18%;float: left;border:1px solid #ff7b6f !important; margin:1%;height: 120px;padding: 0px;margin: 1%;}
 .plata a{width: 13%;float: left;border:1px solid #ff7b6f !important; margin:1%;height: 100px;padding: 0px;margin: 1%;}
 .bronce a{width: 8%;float: left;border:1px solid #ff7b6f !important; margin:1%; height: 80px;padding: 0px;margin: 1%;}
+.wcorg-organizers, .
