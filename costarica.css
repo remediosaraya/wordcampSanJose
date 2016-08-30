@@ -1809,6 +1809,7 @@ body.blog #page .entry-header, body.archive #page .entry-header {
     text-align: left;
     background: #fff;
     top: -67px;
+    z-index: 999;
 }
 #nav-bottom{clear:both;}
 #footer-widgets h1{color:#fff!important;}
