@@ -1806,7 +1806,9 @@ body.blog #page .entry-header, body.archive #page .entry-header {
     letter-spacing: 1px;
     line-height: 34px;
     padding: 0 30px 0 0;
-    text-align: left
+    text-align: left;
+    background: #fff;
+    top: -67px;
 }
 #nav-bottom{clear:both;}
 #footer-widgets h1{color:#fff!important;}
