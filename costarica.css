@@ -1020,6 +1020,7 @@ article.type-wcb_speaker .entry-content h2 {
     border-radius: 100%;
     float: left;
     margin: 10px 10px 10px 0
+    width:127px;
 }
 .wcorg-organizer p {
     margin: 0 0 30px
@@ -1756,7 +1757,7 @@ To learn how this works, see http://wp.me/PEmnE-Bt
 .sub-menu .menu-item a{ padding: 7px 15px!important; text-align: left;}
 .wp-caption-text{display: none;}
 .home .category-news{width: 48%; margin:1%!important;float: left; position: relative; padding:10px!important;border: solid 1px #ff7b6f!important; }
-body #secondary::before {
+body.page-id-349 #secondary::before {
     background-color: #fff;
     color: #c63025;
     content: "Sponsors";
@@ -1773,7 +1774,7 @@ body #secondary::before {
     top: -80px;
     z-index: 2;
 }
-body.home #secondary::before {
+body #secondary::before {
     background-color: #fff;
     color: #c63025;
     content: "Sponsors";
