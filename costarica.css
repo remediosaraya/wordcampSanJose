@@ -1019,7 +1019,7 @@ article.type-wcb_speaker .entry-content h2 {
 .wcorg-organizer img {
     border-radius: 100%;
     float: left;
-    margin: 10px 10px 10px 0
+    margin: 10px 10px 10px 15px;
     width:127px;
 }
 .wcorg-organizer p {
