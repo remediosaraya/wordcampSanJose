@@ -1826,12 +1826,13 @@ body.home .post .entry-header h1 {top: 1px!important; background: none!important
 .bronce a{width: 8%;float: left;border:1px solid #ff7b6f !important; margin:1%; height: 80px;padding: 0px;margin: 1%;}
 .wcorg-organizers, .wcorg-sponsors{margin-top: -60px;}
 .post .entry-title{margin-top: 0!important;}
-.tix-first::before {
+.tix-twitter-user::before {
     color: #c63025;
     content: "Twitter:";}
-.tix-last::before {
+.tix-wordpress-org-user::before {
     color: #c63025;
     content: "WordPress.org:";}
-#tix-attendees li{text-align: center;}
+#tix-attendees li{text-align: center; height: 190px;}
 #tix-attendees .tix-field{margin-left: 0;}
-#tix-attendees li img{background: url(http://2016.sanjose.wordcamp.org/files/2016/08/attenders.png) no-repeat; padding: 26px;}
+#tix-attendees .avatar {height: 120px; width: 125px; float: none;}
+#tix-attendees li img{background: url(http://2016.sanjose.wordcamp.org/files/2016/08/attenders.png) no-repeat center center; padding: 25px 28px 24px 26px;}
