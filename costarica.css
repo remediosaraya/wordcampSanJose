@@ -1829,9 +1829,9 @@ body.home .post .entry-header h1 {top: 1px!important; background: none!important
 .tix-first::before {
     color: #c63025;
     content: "Twitter:";}
-.tix-
-last::before {
+.tix-last::before {
     color: #c63025;
     content: "WordPress.org:";}
-
-    
+#tix-attendees li{text-align: center;}
+#tix-attendees .tix-field{margin-left: 0;}
+#tix-attendees li img{background: url(http://2016.sanjose.wordcamp.org/files/2016/08/attenders.png) no-repeat; padding: 26px;}
