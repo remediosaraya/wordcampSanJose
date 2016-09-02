@@ -155,7 +155,7 @@ footer[role="contentinfo"] a:hover {
     position: fixed;
     z-index: 9999;
     width: 100%;
-    top:30px;
+    top:0px;
     box-shadow:-1px 1px 2px #666;
 }
 .main-navigation {
@@ -1126,7 +1126,7 @@ table.tix_tickets_table td.tix-column-remaining {
     }
     #page #text-5 {
         height: 281px;
-        top: 616px
+        top: 700px
     }
     #page #text-5 .header-widget {
         padding: 40px 0 0
@@ -1792,7 +1792,6 @@ body #secondary::before {
     z-index: 2;
 }
 body #secondary::after {
-    background-color: #e8e8e8;
     content: '';
     display: block;
     height: 1px;
@@ -1835,6 +1834,8 @@ body.blog #page .entry-header, body.archive #page .entry-header {
 body.home .post .entry-header h1 {top: 1px!important; background: none!important;}
 .post .entry-header h1 {top: -85px;}
 #nav-bottom{clear:both;}
+.widget_recent_entriesul , .widget_recent_entries li{list-style: none;}
+.widget_recent_entries a{text-align: left;}
 #footer-widgets h1{color:#fff!important;}
 .fb-page{border-radius: 5px;border:solid 1px #ff7b6f; overflow:hidden;}
 .platino a{ width: 23%; float: left;border:1px solid #ff7b6f !important; height: 145px; padding: 0px;margin: 1%; }
