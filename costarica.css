@@ -1711,7 +1711,8 @@ table.tix_tickets_table td.tix-column-remaining {
     }
     #main {
         max-width: 1120px;
-        overflow: hidden margin: 0 auto;
+        overflow: hidden;
+        margin: 0 auto;
     }
     body.home #main {
         margin: 860px auto 0;
