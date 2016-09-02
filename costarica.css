@@ -2385,6 +2385,9 @@ body.home .post .entry-header h1 {
     padding: 25px 28px 24px 26px;
 }
 
+div#primary-sidebar {
+    padding-bottom: 150px;
+}
 
 /*================== Footer =====================*/
 
