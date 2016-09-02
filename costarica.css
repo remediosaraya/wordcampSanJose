@@ -94,19 +94,20 @@
     max-width: 100%;
     min-width: 250px;
     padding: 0;
-    position: relative
+    position: relative;
 }
 
 #main {
     overflow: visible;
-    padding: 0 20px
+    padding: 0 20px;
 }
 
 #primary {
     margin: 0;
     padding: 30px 0 65px !important;
     position: relative;
-    width: 100% background: #fff;
+    width: 100%;
+    background: #fff;
 }
 
 body #primary::before {
@@ -115,7 +116,6 @@ body #primary::before {
     content: '-';
     display: inline-block;
     font-family: 'Libre Franklin', sans-serif;
-    ;
     font-size: 34px;
     font-weight: 600;
     letter-spacing: 1px;
@@ -125,7 +125,7 @@ body #primary::before {
     top: -30px;
     position: relative;
     text-transform: uppercase;
-    z-index: 2
+    z-index: 2;
 }
 
 body #primary::after {
@@ -137,12 +137,12 @@ body #primary::after {
     top: 17px;
     position: absolute;
     width: 100%;
-    z-index: 1
+    z-index: 1;
 }
 
 body.home #primary {
     margin: 0;
-    padding: 40px 0 0
+    padding: 40px 0 0;
 }
 
 body.home #primary::before {
@@ -151,7 +151,6 @@ body.home #primary::before {
     content: 'Noticias';
     display: inline-block;
     font-family: 'Libre Franklin', sans-serif;
-    ;
     font-size: 34px;
     font-weight: 600;
     letter-spacing: 1px;
@@ -161,7 +160,7 @@ body.home #primary::before {
     top: -30px;
     position: relative;
     text-transform: uppercase;
-    z-index: 2
+    z-index: 2;
 }
 
 body.home #primary::after {
@@ -173,7 +172,7 @@ body.home #primary::after {
     top: 17px;
     position: absolute;
     width: 100%;
-    z-index: 1
+    z-index: 1;
 }
 
 #secondary {
@@ -186,13 +185,13 @@ body.home #primary::after {
 
 body.home #secondary {
     margin: 0;
-    padding: 0
+    padding: 0;
 }
 
 body.single-attachment #primary,
 body.full-width #primary {
     width: 100%;
-    padding: 0
+    padding: 0;
 }
 
 #colophon {
@@ -202,16 +201,16 @@ body.full-width #primary {
     text-align: right;
     background: #c63025;
     max-width: 100%;
-    padding: 0
+    padding: 0;
 }
 
 footer[role="contentinfo"] a {
     color: #fff;
-    transition: all .5s ease
+    transition: all .5s ease;
 }
 
 footer[role="contentinfo"] a:hover {
-    color: rgba(255, 255, 255, 0.65)
+    color: rgba(255, 255, 255, 0.65);
 }
 
 .site-info {
@@ -221,7 +220,7 @@ footer[role="contentinfo"] a:hover {
     line-height: 89px;
     margin: 0 auto;
     max-width: 1470px;
-    padding: 0 80px
+    padding: 0 80px;
 }
 
 .site-info a {
@@ -232,7 +231,7 @@ footer[role="contentinfo"] a:hover {
 }
 
 .site-info::after {
-    content: "WordCamp Costa Rica / 5 de noviembre, 2016"
+    content: "WordCamp Costa Rica / 5 de noviembre, 2016";
 }
 
 .site-header {
@@ -250,39 +249,38 @@ footer[role="contentinfo"] a:hover {
     margin: 0 auto;
     max-width: 1470px;
     padding: 0 80px;
-    text-align: center
+    text-align: center;
 }
 
 .menu-primary-menu-container::after {
     content: '';
     clear: both;
-    display: block
+    display: block;
 }
 
 .main-navigation ul.nav-menu {
     float: right;
-    width: auto
+    width: auto;
 }
 
 .main-navigation ul {
     float: right;
-    width: auto
+    width: auto;
 }
 
 .main-navigation ul.nav-menu,
 .main-navigation div.nav-menu > ul {
-    border: none
+    border: none;
 }
 
 .main-navigation li {
-    margin: 0
+    margin: 0;
 }
 
 .main-navigation li a {
     color: #000;
     font-size: 16px;
     font-family: 'Libre Franklin', sans-serif;
-    ;
     letter-spacing: 1px;
     line-height: 89px;
     padding: 0 0 0 10px
@@ -290,17 +288,17 @@ footer[role="contentinfo"] a:hover {
 
 .main-navigation li a::after {
     content: '/';
-    padding: 0 0 0 13px
+    padding: 0 0 0 13px;
 }
 
 .main-navigation li.entradas a::after,
 .main-navigation li.organizadores a::after {
     content: '';
-    padding: 0
+    padding: 0;
 }
 
 .main-navigation li.organizadores a::after {
-    padding-right: 20px
+    padding-right: 20px;
 }
 
 .main-navigation li.entradas a::before {
@@ -308,27 +306,27 @@ footer[role="contentinfo"] a:hover {
     content: '\f145';
     color: #fff;
     font-size: 1.4em;
-    margin-right: 10px
+    margin-right: 10px;
 }
 
 .main-navigation li.entradas a {
     background: rgba(0, 0, 0, 0.05);
     padding-left: 25px;
-    padding-right: 25px
+    padding-right: 25px;
 }
 
 .main-navigation li.entradas a:hover {
-    background: rgba(0, 0, 0, 0.1)
+    background: rgba(0, 0, 0, 0.1);
 }
 
 .main-navigation li.social {
-    margin: 0 2px
+    margin: 0 2px;
 }
 
 .main-navigation li.social a {
     padding: 0;
     text-indent: -9999px;
-    transition: none
+    transition: none;
 }
 
 .main-navigation li.twitter a {
@@ -336,11 +334,11 @@ footer[role="contentinfo"] a:hover {
     background-position: right center;
     background-size: 16px 16px;
     margin: 0 0 0 8px;
-    width: 19px
+    width: 19px;
 }
 
 .main-navigation li.twitter a:hover {
-    background-position: left center
+    background-position: left center;
 }
 
 .main-navigation li.facebook a {
@@ -351,12 +349,12 @@ footer[role="contentinfo"] a:hover {
 }
 
 .main-navigation li.facebook a:hover {
-    background-position: left center
+    background-position: left center;
 }
 
 .main-navigation li.social a::after {
     content: '';
-    padding: 0
+    padding: 0;
 }
 
 .main-navigation li a:hover {
@@ -368,7 +366,7 @@ footer[role="contentinfo"] a:hover {
     background-color: #fff;
     border-bottom: solid 1px #e8e8e8;
     color: #c63025 !important;
-    font-size: 14px
+    font-size: 14px;
 }
 
 .main-navigation li ul li a::after {
@@ -378,7 +376,7 @@ footer[role="contentinfo"] a:hover {
 
 .main-navigation li ul li a:hover {
     background-color: #cf3e31;
-    color: #333 !important
+    color: #333 !important;
 }
 
 .main-navigation .current-menu-item > a,
@@ -386,7 +384,7 @@ footer[role="contentinfo"] a:hover {
 .main-navigation .current_page_item > a,
 .main-navigation .current_page_ancestor > a {
     color: #cf3e31;
-    font-weight: 400
+    font-weight: 400;
 }
 
 .main-navigation ul.nav-menu.toggled-on,
@@ -417,7 +415,7 @@ button:active {
     border: none;
     border-radius: 0;
     color: rgba(255, 255, 255, 0.65);
-    outline: none
+    outline: none;
 }
 
 .main-navigation ul ul {
@@ -431,7 +429,7 @@ button:active {
 }
 
 .single-author .entry-meta .by-author {
-    display: inline
+    display: inline;
 }
 
 .entry-meta {
@@ -444,12 +442,12 @@ button:active {
 
 body.template-front-page #page #main {
     background-color: #fff;
-    padding-top: 20px
+    padding-top: 20px;
 }
 
 body.template-front-page #page .site-content {
     float: left;
-    width: 58%
+    width: 58%;
 }
 
 body.template-front-page #page .widget-area {
@@ -457,7 +455,7 @@ body.template-front-page #page .widget-area {
     clear: none;
     float: right;
     padding: 0 2% 0 0;
-    width: 32%
+    width: 32%;
 }
 
 #page #text-5 {
@@ -470,22 +468,22 @@ body.template-front-page #page .widget-area {
     position: absolute;
     top: 500px;
     width: 100%;
-    margin: 0
+    margin: 0;
 }
 
 body.home #page #text-5 {
-    display: block
+    display: block;
 }
 
 #page #text-5 .textwidget {
     max-width: 982px;
-    margin: 0 auto
+    margin: 0 auto;
 }
 
 #page #text-5 .textwidget::after {
     content: '';
     clear: both;
-    display: block
+    display: block;
 }
 
 #page #text-5 .header-widget {
@@ -496,7 +494,7 @@ body.home #page #text-5 {
     float: left;
     padding: 40px 0 0;
     text-align: center;
-    width: 33.33%
+    width: 33.33%;
 }
 
 #page #text-5 .header-widget-inner {
@@ -504,22 +502,22 @@ body.home #page #text-5 {
 }
 
 #page #text-5 .textwidget {
-    padding: 0
+    padding: 0;
 }
 
 #page #text-5 .dev-widget .header-widget-inner {
     background: transparent url('http://2016.sanjose.wordcamp.org/files/2016/08/wordcamp-dev.png') no-repeat top center;
-    background-size: 145px 141px
+    background-size: 145px 141px;
 }
 
 #page #text-5 .blogger-widget .header-widget-inner {
     background: transparent url('http://2016.sanjose.wordcamp.org/files/2016/08/wordcamp-blogger.png') no-repeat top center;
-    background-size: 145px 141px
+    background-size: 145px 141px;
 }
 
 #page #text-5 .ux-widget .header-widget-inner {
     background: transparent url('http://2016.sanjose.wordcamp.org/files/2016/08/wordcamp-ux.png') no-repeat top center;
-    background-size: 145px 141px
+    background-size: 145px 141px;
 }
 
 #page #text-5 .header-widget h4 {
@@ -528,25 +526,25 @@ body.home #page #text-5 {
     letter-spacing: 1px;
     line-height: 20px;
     margin: 0 0 15px;
-    text-transform: uppercase
+    text-transform: uppercase;
 }
 
 #page #text-5 .header-widget a {
     color: #c63025;
     text-decoration: none;
-    transition: all .5s ease
+    transition: all .5s ease;
 }
 
 #page #text-5 .header-widget a:hover {
     color: #333;
-    text-decoration: none
+    text-decoration: none;
 }
 
 #page #text-5 .header-widget p {
     font-family: 'Libre Franklin', sans-serif;
     ;
     font-size: 14px;
-    line-height: 18px
+    line-height: 18px;
 }
 
 #page #text-4 {
@@ -563,26 +561,26 @@ body.home #page #text-5 {
     text-align: center;
     top: 89px;
     width: 100%;
-    margin: 0
+    margin: 0;
 }
 
 body.home #page #text-4 {
-    display: block
+    display: block;
 }
 
 #page #text-4 .textwidget {
-    line-height: 0
+    line-height: 0;
 }
 
 #page #text-4 #home-logo {
-    margin: 115px 0 114px
+    margin: 115px 0 114px;
 }
 
 #page #text-4 #register-widget {
     background-color: #ebebeb;
     height: 175px;
     line-height: 20px;
-    padding: 60px 0 0
+    padding: 60px 0 0;
 }
 
 #page #text-4 #register-widget h2 {
@@ -592,7 +590,7 @@ body.home #page #text-4 {
     letter-spacing: 2px;
     line-height: 30px;
     margin: 0 0 20px;
-    text-transform: uppercase
+    text-transform: uppercase;
 }
 
 #page #text-4 #register-widget .button {
@@ -601,45 +599,44 @@ body.home #page #text-4 {
     color: #fff;
     display: inline-block;
     font-family: 'Libre Franklin', sans-serif;
-    ;
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 1px;
     line-height: 14px;
     padding: 15px 25px;
     text-transform: uppercase;
-    transition: all .5s ease
+    transition: all .5s ease;
 }
 
 #page #text-4 #register-widget .button:hover {
     background-color: #c63025;
     color: #fff;
-    text-decoration: none
+    text-decoration: none;
 }
 
 #page #text-4 .header-widget-inner {
-    padding: 120px 20px 0
+    padding: 120px 20px 0;
 }
 
 #page #text-4 .textwidget {
-    padding: 0
+    padding: 0;
 }
 
 #page .widget.wcb_widget_sponsors {
-    background: #fff
+    background: #fff;
 }
 
 #page .widget.wcb_widget_sponsors .sponsor-level {
-    margin-bottom: 20px
+    margin-bottom: 20px;
 }
 
 #page .widget.wcb_widget_sponsors .sponsor-level h4 {
     margin-bottom: 20px;
-    color: #444
+    color: #444;
 }
 
 #page .widget.wcb_widget_sponsors .sponsor-level img {
-    margin-bottom: 10px
+    margin-bottom: 10px;
 }
 
 body {
@@ -651,12 +648,12 @@ body {
 a,
 a:visited {
     color: #2d168a;
-    text-decoration: none
+    text-decoration: none;
 }
 
 a:hover {
     color: #2d168a;
-    text-decoration: underline
+    text-decoration: underline;
 }
 
 #page .entry-header,
@@ -665,30 +662,30 @@ a:hover {
     text-align: left;
     padding: 5px 0 0;
     height: 45px;
-    margin: 0
+    margin: 0;
 }
 
 .entry-header .comments-link {}
 
 #page .archive-header {
-    margin: 0 0 75px
+    margin: 0 0 75px;
 }
 
 #page .entry-title,
 #page .archive-title {
     display: inline-block;
     margin: 0;
-    position: relative
+    position: relative;
 }
 
 .entry-header .entry-title a {
     font-size: 22px!important;
     color: #fff;
-    transition: all .5s ease
+    transition: all .5s ease;
 }
 
 .entry-header .entry-title a:hover {
-    color: #eee
+    color: #eee;
 }
 
 .entry-header .entry-meta {
@@ -701,17 +698,17 @@ a:hover {
 
 body.archive .archive-header .archive-title a {
     color: #fff;
-    transition: all .5s ease
+    transition: all .5s ease;
 }
 
 body.archive .archive-header .archive-title a:hover {
-    color: #fff
+    color: #fff;
 }
 
 body.page-template-full-width #page .entry-header {
     height: auto;
     text-align: center;
-    padding: 58px 0
+    padding: 58px 0;
 }
 
 body.page-template-full-width #page .entry-title:before,
@@ -727,12 +724,12 @@ body.page-template-full-width #page .entry-title:after {
 
 body.page-template-full-width #page .entry-title:before {
     right: 100%;
-    margin-right: 15px
+    margin-right: 15px;
 }
 
 body.page-template-full-width #page .entry-title:after {
     left: 100%;
-    margin-left: 15px
+    margin-left: 15px;
 }
 
 body.blog #page .entry-header,
@@ -740,13 +737,13 @@ body.archive #page .entry-header {
     height: auto;
     padding: 0;
     margin: 0 0 20px;
-    text-align: left
+    text-align: left;
 }
 
 body.blog .entry-content,
 body.archive .entry-content {
     margin: 0;
-    padding: 0
+    padding: 0;
 }
 
 .entry-content a,
@@ -754,13 +751,13 @@ body.archive .entry-content {
 .entry-content a:visited,
 .comment-content a:visited {
     color: #c63025;
-    text-decoration: underline
+    text-decoration: underline;
 }
 
 .entry-content a:hover,
 .comment-content a:hover {
     color: #333;
-    text-decoration: none
+    text-decoration: none;
 }
 
 #page .more-link {
@@ -777,13 +774,13 @@ body.archive .entry-content {
     padding: 15px 25px;
     text-decoration: none;
     text-transform: uppercase;
-    transition: all .5s ease
+    transition: all .5s ease;
 }
 
 #page .more-link:hover {
     background-color: #c63025;
     color: #fff;
-    text-decoration: none
+    text-decoration: none;
 }
 
 #page h1 {
@@ -793,13 +790,13 @@ body.archive .entry-content {
     font-weight: 600;
     letter-spacing: 1px;
     line-height: 24px;
-    text-transform: uppercase
+    text-transform: uppercase;
 }
 
 h2 {
     font-family: 'Libre Franklin', sans-serif;
     ;
-    font-weight: 600
+    font-weight: 600;
 }
 
 .entry-content h2 {
@@ -807,35 +804,35 @@ h2 {
     font-size: 20px;
     line-height: 24px;
     font-weight: 600;
-    text-transform: uppercase
+    text-transform: uppercase;
 }
 
 .entry-content h2 a,
 .entry-content h2 a:hover,
 .entry-content h2 a:visited {
-    color: #c63025
+    color: #c63025;
 }
 
 h3 {
     font-family: 'Libre Franklin', sans-serif;
     ;
-    font-weight: 600
+    font-weight: 600;
 }
 
 h4 {
     font-family: 'Libre Franklin', sans-serif;
     ;
-    font-weight: 700
+    font-weight: 700;
 }
 
 #page h4 {
     color: #43ad8e;
     font-size: 15px;
-    text-transform: uppercase
+    text-transform: uppercase;
 }
 
 .entry-content h4 {
-    margin: 20px 0 5px
+    margin: 20px 0 5px;
 }
 
 hr {
@@ -853,42 +850,42 @@ img.header-image,
 img.wp-post-image {
     border-radius: 0;
     box-shadow: none;
-    height: auto
+    height: auto;
 }
 
 img.alignleft {
     margin: 0 24px 12px 0;
     margin: 0 1.714285714rem .857142857rem 0;
     margin: 0 24px 12px 0;
-    margin: 0 1.714285714rem .857142857rem 0
+    margin: 0 1.714285714rem .857142857rem 0;
 }
 
 img.alignnone {
     margin: 0 0 12px;
-    margin: 0 0 .857142857rem
+    margin: 0 0 .857142857rem;
 }
 
 .site-content {
-    margin: 2rem 0 0
+    margin: 2rem 0 0;
 }
 
 .widget-area {
-    margin: 2rem 0 0
+    margin: 2rem 0 0;
 }
 
 .entry-header h1 a {
-    display: block
+    display: block;
 }
 
 .entry-header h1 a:hover {
-    color: #444
+    color: #444;
 }
 
 body.page .site-content article,
 body.single-wcb_session .site-content article {
     border: none !important;
     margin: 0;
-    padding: 0
+    padding: 0;
 }
 
 body.blog .site-content article,
@@ -896,39 +893,39 @@ body.error404 .site-content article,
 body.archive .site-content article {
     border-bottom: solid 1px #e8e8e8;
     margin: 0 0 40px;
-    padding: 0 0 40px
+    padding: 0 0 40px;
 }
 
 body.blog .site-content article:last-of-type,
 body.error404 .site-content article:last-of-type,
 body.archive .site-content article:last-of-type {
     border: none;
-    padding: 0
+    padding: 0;
 }
 
 body.single .site-content article {
     border-bottom: solid 1px #e8e8e8;
     margin: 0 0 40px;
-    padding: 0 0 40px
+    padding: 0 0 40px;
 }
 
 body.blog .comments-link {
-    display: none
+    display: none;
 }
 
 .blog-archive {
-    width: 75%
+    width: 75%;
 }
 
 .blog-archive ul {
     border-top: solid 1px #ddd;
-    list-style-type: none
+    list-style-type: none;
 }
 
 .blog-archive li {
     border-bottom: solid 1px #ddd;
     margin: 0;
-    padding: 0
+    padding: 0;
 }
 
 .blog-archive li a {
@@ -937,12 +934,12 @@ body.blog .comments-link {
     -webkit-transition: background-color .3s ease-in;
     -moz-transition: background-color .3s ease-in;
     -o-transition: background-color .3s ease-in;
-    transition: background-color .3s ease-in
+    transition: background-color .3s ease-in;
 }
 
 .blog-archive li a:hover {
     background-color: #f3f3f3;
-    text-decoration: none
+    text-decoration: none;
 }
 
 #page footer.entry-meta {
@@ -952,37 +949,37 @@ body.blog .comments-link {
     color: #c63025;
     font-family: 'Libre Franklin', sans-serif;
     ;
-    font-weight: 500
+    font-weight: 500;
 }
 
 #page footer.entry-meta a {
     color: #c63025;
-    text-decoration: underline
+    text-decoration: underline;
 }
 
 #page footer.entry-meta a:hover {
     color: #c63025;
-    text-decoration: none
+    text-decoration: none;
 }
 
 body.page-template-default #page footer.entry-meta,
 body.page-template-page-templatesfull-width-php #page footer.entry-meta {}
 
 .edit-link {
-    display: none
+    display: none;
 }
 
 .featured-post {
-    display: none
+    display: none;
 }
 
 .entry-content {
     font-size: 14px;
-    padding: 75px 0
+    padding: 75px 0;
 }
 
 body.single .entry-content {
-    padding: 60px 0 0
+    padding: 60px 0 0;
 }
 
 .entry-content p,
@@ -991,29 +988,29 @@ body.single .entry-content {
 .mu_register p {
     margin: 0 0 24px;
     margin: 0 0 1.714285714rem;
-    line-height: 1.94285714
+    line-height: 1.94285714;
 }
 
 .entry-content p:last-of-type,
 .entry-summary p:last-of-type,
 .comment-content p:last-of-type,
 .mu_register p:last-of-type {
-    margin: 0
+    margin: 0;
 }
 
 .site-content nav {
-    margin: 0 0 50px
+    margin: 0 0 50px;
 }
 
 .nav-previous {
     float: left;
-    width: 49%
+    width: 49%;
 }
 
 .nav-next {
     float: right;
     text-align: right;
-    width: 49%
+    width: 49%;
 }
 
 .nav-previous a,
@@ -1025,7 +1022,7 @@ body.single .entry-content {
     text-transform: uppercase;
     text-decoration: none;
     font-size: 20px;
-    line-height: 22px;
+    line-height: 22px;;
     font-family: 'Roboto', sans-serif
 }
 
@@ -1033,17 +1030,17 @@ body.single .entry-content {
 .nav-next a:hover {
     color: #333;
     background: none;
-    text-decoration: none
+    text-decoration: none;
 }
 
 .form-allowed-tags {
-    display: none
+    display: none;
 }
 
 #secondary .widget {
     background: #f2f2f2;
     margin: 0 0 50px;
-    padding: 0
+    padding: 0;
 }
 
 .widget-title {
@@ -1054,11 +1051,11 @@ body.single .entry-content {
     text-align: center;
     text-transform: uppercase;
     padding: 20px;
-    border-bottom: solid 1px #c9cac5
+    border-bottom: solid 1px #c9cac5;
 }
 
 #page .widget .textwidget {
-    padding: 0 40px 10px
+    padding: 0 40px 10px;
 }
 
 .widget h5 {
@@ -1069,24 +1066,24 @@ body.single .entry-content {
     margin: 50px 0 30px;
     padding: 0 5px;
     text-align: center;
-    text-transform: uppercase
+    text-transform: uppercase;
 }
 
 #page .widget h5 a {
     color: #c63025;
-    text-decoration: none
+    text-decoration: none;
 }
 
 #page .widget h5 a:hover {
     color: #333;
-    text-decoration: none
+    text-decoration: none;
 }
 
 #page .widget_text img {
     border-radius: 0;
     box-shadow: none;
     float: none;
-    margin: 0
+    margin: 0;
 }
 
 #page .widget_text,
@@ -1097,94 +1094,94 @@ body.single .entry-content {
 }
 
 #page .widget_text a {
-    color: #2d168a
+    color: #2d168a;
 }
 
 #page .widget_text a:hover {
-    color: #2d168a
+    color: #2d168a;
 }
 
 #page .widget_text #buddycamp-header {
     display: block;
-    margin: -30px auto 20px
+    margin: -30px auto 20px;
 }
 
 .sponsor-logo {
-    text-align: center
+    text-align: center;
 }
 
 #page .widget_text .widget-link {
     font-weight: 700;
     margin: 0 0 5px;
-    text-align: center
+    text-align: center;
 }
 
 .table-legend {
-    width: auto !important
+    width: auto !important;
 }
 
 .t-gen {
-    background-color: #e2e2e2
+    background-color: #e2e2e2;
 }
 
 .t-dev1 {
-    background-color: #e2e9f1
+    background-color: #e2e9f1;
 }
 
 .t-dev2 {
-    background-color: #b8f0df
+    background-color: #b8f0df;
 }
 
 .t-des {
-    background-color: #cdc7ed
+    background-color: #cdc7ed;
 }
 
 .t-row {
-    text-align: center
+    text-align: center;
 }
 
 .entry-content th,
 .entry-content td {
     border-top: 1px solid #fff;
     border-right: 1px solid #fff;
-    padding: 6px 10px
+    padding: 6px 10px;
 }
 
 .entry-content table,
 .comment-content table {
-    border-bottom: none
+    border-bottom: none;
 }
 
 #page .nav-single + .comments-area,
 #page #comment-nav-above {
-    margin: 30px 0
+    margin: 30px 0;
 }
 
 table a {
     color: #636363 !important;
-    text-decoration: underline
+    text-decoration: underline;
 }
 
 table a:hover {
     color: #636363 !important;
-    text-decoration: none
+    text-decoration: none;
 }
 
 .wcorg-sponsors > div {
     border-bottom: 1px solid #ededed;
     margin-bottom: 25px;
     overflow: hidden;
-    padding-bottom: 25px
+    padding-bottom: 25px;
 }
 
 article.type-wcb_sponsor header.entry-header img {
-    display: none
+    display: none;
 }
 
 .wcorg-sponsor-description img {
     float: right;
     max-width: 33.33%;
-    margin: 0 0 20px 20px
+    margin: 0 0 20px 20px;
 }
 
 body.page-template-page-templatesfull-width-php .entry-content .sponsor-logo {
@@ -1192,93 +1189,93 @@ body.page-template-page-templatesfull-width-php .entry-content .sponsor-logo {
     height: 120px;
     margin: 0;
     padding: 2% 4%;
-    width: 25%
+    width: 25%;
 }
 
 body.single-wcba_sponsor #page .entry-header,
 #page .archive-header {
     padding: 58px 0;
-    height: auto
+    height: auto;
 }
 
 body.single-wcba_sponsor #page .entry-header h1,
 #page .archive-header h1 {
     font-size: 48px;
-    line-height: 49px
+    line-height: 49px;
 }
 
 body.single-wcba_sponsor .entry-content ul {
     border-top: solid 1px #ddd;
     display: inline-block;
-    list-style-type: none
+    list-style-type: none;
 }
 
 body.single-wcba_sponsor .entry-content li {
     border-bottom: solid 1px #ddd;
     margin: 0;
-    padding: 3px 10px
+    padding: 3px 10px;
 }
 
 body.single-wcba_sponsor footer.entry-meta {
-    display: none
+    display: none;
 }
 
 body.single-wcba_sponsor .site-content article {
     border: none;
     margin: 0;
-    padding: 0
+    padding: 0;
 }
 
 body.single-wcba_sponsor .site-content nav {
-    display: none
+    display: none;
 }
 
 .wcorg-speaker {
     border-bottom: solid 1px #cac9c5;
-    margin: 0 0 30px
+    margin: 0 0 30px;
 }
 
 .wcorg-speaker:last-child {
-    border-bottom: none
+    border-bottom: none;
 }
 
 .wcorg-speaker-description {
-    min-height: 100px
+    min-height: 100px;
 }
 
 .wcorg-speaker img {
     border-radius: 100%;
     float: left;
-    margin: 0 30px 30px 0
+    margin: 0 30px 30px 0;
 }
 
 .wcorg-speaker p {
-    margin: 0 0 30px
+    margin: 0 0 30px;
 }
 
 .speaker-avatar {
-    float: right
+    float: right;
 }
 
 .speaker-avatar img {
-    border-radius: 100%
+    border-radius: 100%;
 }
 
 .wcorg-speaker p {
-    margin: 0 0 30px
+    margin: 0 0 30px;
 }
 
 .wcorg-speaker .social {
-    margin-right: 5px
+    margin-right: 5px;
 }
 
 .wcorg-speaker .social + br {
-    display: none
+    display: none;
 }
 
 article.type-wcb_speaker .entry-content h2 {
     clear: none;
-    margin-top: 0
+    margin-top: 0;
 }
 
 .wcorg-organizer {
@@ -1291,11 +1288,11 @@ article.type-wcb_speaker .entry-content h2 {
 }
 
 .wcorg-organizer:last-child {
-    border-bottom: none
+    border-bottom: none;
 }
 
 .wcorg-organizer-description {
-    min-height: 100px
+    min-height: 100px;
 }
 
 .wcorg-organizer img {
@@ -1306,73 +1303,73 @@ article.type-wcb_speaker .entry-content h2 {
 }
 
 .wcorg-organizer p {
-    margin: 0 0 30px
+    margin: 0 0 30px;
 }
 
 .wcorg-session {
     border-bottom: solid 1px #cac9c5;
-    margin: 0 0 30px
+    margin: 0 0 30px;
 }
 
 .wcorg-session:last-child {
-    border-bottom: none
+    border-bottom: none;
 }
 
 .wcorg-session p {
-    margin: 0 0 30px
+    margin: 0 0 30px;
 }
 
 .wcorg-session h2 {
-    margin-bottom: 0
+    margin-bottom: 0;
 }
 
 .wcpt-session-meta {
-    font-size: 12px
+    font-size: 12px;
 }
 
 body.single-wcb_session footer.entry-meta {
-    display: none
+    display: none;
 }
 
 body.single-wcb_session .nav-single {
-    display: none
+    display: none;
 }
 
 #tix-attendees .avatar {
-    border-radius: 100%
+    border-radius: 100%;
 }
 
 #tix-attendees .tix-columns-3 li {
     margin: 0 2% 2%;
-    width: 29%
+    width: 29%;
 }
 
 #tix-attendees .tix-columns-3::after {
     content: '';
     clear: both;
-    display: block
+    display: block;
 }
 
 table.tix_tickets_table th {
-    font-size: 1.1em
+    font-size: 1.1em;
 }
 
 table.tix_tickets_table th.tix-column-quantity,
 table.tix_tickets_table th.tix-column-remaining {
-    width: 80px
+    width: 80px;
 }
 
 table.tix_tickets_table th.tix-column-remaining,
 table.tix_tickets_table td.tix-column-remaining {
-    display: none
+    display: none;
 }
 
 .tix-ticket-title {
-    font-size: 1.3em
+    font-size: 1.3em;
 }
 
 .site-info a {
-    text-decoration: none
+    text-decoration: none;
 }
 
 @media screen and (max-width: 1500px) {
@@ -1381,76 +1378,76 @@ table.tix_tickets_table td.tix-column-remaining {
         background-size: 174px 36px;
         height: 36px;
         margin: 26px 0 0;
-        width: 174px
+        width: 174px;
     }
 }
 
 @media screen and (max-width: 1250px) {
     .main-navigation,
     .site-info {
-        padding: 0 40px
+        padding: 0 40px;
     }
     .main-navigation li a {
         font-size: 14px;
-        padding: 0 0 0 4px
+        padding: 0 0 0 4px;
     }
     .main-navigation li a::after {
-        padding: 0 0 0 8px
+        padding: 0 0 0 8px;
     }
     .main-navigation li.twitter a {
-        margin: 0 0 0 4px
+        margin: 0 0 0 4px;
     }
 }
 
 @media screen and (max-width: 1000px) {
     .menu-primary-menu-container::before {
-        display: none
+        display: none;
     }
 }
 
 @media screen and (max-width: 900px) {
     .site {
-        background-size: 1001px 103px
+        background-size: 1001px 103px;
     }
     body.home .site {
-        background-size: 1001px 338px
+        background-size: 1001px 338px;
     }
     #page #text-4 {
-        height: 527px
+        height: 527px;
     }
     #page #text-4 #home-logo {
         margin: 60px 0;
-        max-width: 300px
+        max-width: 300px;
     }
     #page #text-4 #register-widget {
         height: 159px;
-        padding: 30px 0 0
+        padding: 30px 0 0;
     }
     #page #text-5 {
         height: 281px;
-        top: 700px
+        top: 700px;
     }
     #page #text-5 .header-widget {
-        padding: 40px 0 0
+        padding: 40px 0 0;
     }
     .main-navigation li a {
-        line-height: 45px
+        line-height: 45px;
     }
     .site {
         margin: 0;
         max-width: 100%;
-        overflow: hidden
+        overflow: hidden;
     }
     body.home #main {
-        margin: 860px auto 0
+        margin: 860px auto 0;
     }
     body.page-template-full-width #page .entry-header {
         padding: 33px 0;
-        overflow: hidden
+        overflow: hidden;
     }
     body.page-template-full-width #page .entry-header h1 {
         font-size: 32px;
-        line-height: 38px
+        line-height: 38px;
     }
     body.page-template-full-width #page .entry-title:before,
     body.page-template-full-width #page .entry-title:after {
@@ -1459,41 +1456,41 @@ table.tix_tickets_table td.tix-column-remaining {
     #page .entry-header,
     #page .archive-header {
         padding: 14px 0 0;
-        height: 89px
+        height: 89px;
     }
     .entry-content {
-        padding: 50px 0
+        padding: 50px 0;
     }
     #secondary {
         margin: 103px 0 0;
-        padding: 50px 0 0
+        padding: 50px 0 0;
     }
     body.single .entry-content {
         padding: 50px 0 0
     }
     .menu-primary-menu-container {
         background: none;
-        padding: 0
+        padding: 0;
     }
     #text-5 {
-        display: none
+        display: none;
     }
     body.template-front-page #page #main {
         background: none;
         background-color: #fff;
-        padding-top: 0
+        padding-top: 0;
     }
     .first.front-widgets {
-        display: none
+        display: none;
     }
     body.page-template-page-templatesfull-width-php .entry-content .sponsor-logo {
-        width: 42%
+        width: 42%;
     }
     body.template-front-page #page #primary,
     #primary {
         float: none;
         padding-bottom: 30px;
-        width: auto
+        width: auto;
     }
     body.template-front-page #page #secondary,
     #secondary {
@@ -1502,116 +1499,116 @@ table.tix_tickets_table td.tix-column-remaining {
         padding: 0 4%;
     }
     .site-content nav {
-        margin: 0
+        margin: 0;
     }
     body.single-wcba_sponsor #page .entry-header,
     #page .archive-header {
         padding: 33px 0;
-        height: auto
+        height: auto;
     }
     body.single-wcba_sponsor #page .entry-header h1,
     #page .archive-header h1 {
         font-size: 32px;
-        line-height: 38px
+        line-height: 38px;
     }
     #tix-attendees .tix-columns-3 li {
-        width: 46%
+        width: 46%;
     }
     .wcorg-organizer {
         width: 100%;
-        float: none
+        float: none;
     }
 }
 
 @media screen and (max-width: 600px) {
     .site {
         background: #fff url('Costa-Rica-San-Jose-View.jpg') no-repeat 0 48px;
-        background-size: 1001px 103px
+        background-size: 1001px 103px;
     }
     body.home .site {
         background: #fff url('https://2016.sanjose.wordcamp.org/files/2016/08/Costa-Rica-San-Jose-View.jpg') no-repeat 0 48px;
-        background-size: 1001px 338px
+        background-size: 1001px 338px;
     }
     #page #text-4 {
         top: 48px
     }
     #page #text-4 #home-logo {
         margin: 74px 0;
-        max-width: 260px
+        max-width: 260px;
     }
     #page #text-4 #register-widget h2 {
         font-size: 16px;
         line-height: 26px;
-        margin: 0 0 10px
+        margin: 0 0 10px;
     }
     body.home #main {
-        margin: 590px auto 0
+        margin: 590px auto 0;
     }
     body.page-template-full-width #page .entry-header h1 {
         font-size: 24px;
-        line-height: 36px
+        line-height: 36px;
     }
     body.page-template-full-width #page .entry-title:before,
     body.page-template-full-width #page .entry-title:after {
-        top: 18px
+        top: 18px;
     }
     #page .entry-header h1,
     #page .archive-header h1 {
         font-size: 18px;
-        line-height: 20px
+        line-height: 20px;
     }
     .main-navigation {
-        padding: 0
+        padding: 0;
     }
     .main-navigation li a {
         display: block;
         line-height: 38px;
-        text-decoration: none
+        text-decoration: none;
     }
     .main-navigation li a::after {
-        display: none
+        display: none;
     }
     .main-navigation li.social {
         margin: 0 5px;
-        display: inline-block
+        display: inline-block;
     }
     .site-info {
         font-size: 16px;
         line-height: 30px;
         text-align: center;
-        padding: 15px
+        padding: 15px;
     }
     .site-info a {
         float: none;
-        display: block
+        display: block;
     }
     .nav-next,
     .nav-previous {
         display: block;
         float: none;
-        width: 100%
+        width: 100%;
     }
     .nav-previous {
-        margin: 0 0 10px
+        margin: 0 0 10px;
     }
     .site-content nav {
-        margin: 0
+        margin: 0;
     }
     body.home #page #text-5 {
-        display: none
+        display: none;
     }
     .main-navigation li ul li a {
         background: none;
         border: none;
-        color: #fff !important
+        color: #fff !important;
     }
     .main-navigation li ul li a:hover {
         background: none;
-        color: rgba(255, 255, 255, 0.65) !important
+        color: rgba(255, 255, 255, 0.65) !important;
     }
     body.page-template-page-templatesfull-width-php .entry-content .sponsor-logo {
         float: none;
-        width: 84%
+        width: 84%;
     }
     table,
     thead,
@@ -1619,29 +1616,29 @@ table.tix_tickets_table td.tix-column-remaining {
     th,
     td,
     tr {
-        display: block
+        display: block;
     }
     .entry-content .t-key th {
         display: inline;
         font-size: 9px;
-        padding: 10px 5px
+        padding: 10px 5px;
     }
     thead tr {
         position: absolute;
         top: -9999px;
-        left: -9999px
+        left: -9999px;
     }
     td {
         border: none;
         position: relative;
-        padding-left: 50%
+        padding-left: 50%;
     }
     .entry-content .t-biz,
     .entry-content .t-dev1,
     .entry-content .t-dev2,
     .entry-content .t-des,
     .entry-content .t-gen {
-        padding: 27px 10px 6px
+        padding: 27px 10px 6px;
     }
     td:before {
         position: absolute;
@@ -1650,25 +1647,25 @@ table.tix_tickets_table td.tix-column-remaining {
         width: auto;
         text-transform: uppercase;
         padding-right: 10px;
-        white-space: nowrap
+        white-space: nowrap;
     }
     #wordcamp-schedule td:nth-of-type(2):before {
-        content: "Schulze Auditorium"
+        content: "";
     }
     #wordcamp-schedule td:nth-of-type(3):before {
-        content: "Thornton Auditorium"
+        content: "";
     }
     #wordcamp-schedule td:nth-of-type(4):before {
-        content: "Opus Hall Room 201"
+        content: "";
     }
     #wordcamp-schedule td:nth-of-type(5):before {
-        content: "Opus Hall Room 202"
+        content: "";
     }
     #wordcamp-schedule td.t-row:before {
         content: ""
     }
     #business-summit-schedule td:nth-of-type(2):before {
-        content: "Schulze Auditorium"
+        content: "";
     }
     #business-summit-schedule td.t-row:before {
         content: ""
@@ -1676,33 +1673,33 @@ table.tix_tickets_table td.tix-column-remaining {
     #tix td.tix-column-price,
     #tix td.tix-column-remaining,
     #tix td.tix-column-quantity {
-        padding-top: 25px
+        padding-top: 25px;
     }
     #tix td:before {
         color: #636363;
         font-size: 11px;
         font-size: .785714286rem;
         line-height: 2.181818182;
-        font-weight: 700
+        font-weight: 700;
     }
     #tix td.tix-column-price:before {
-        content: "Precio"
+        content: "Precio";
     }
     #tix td.tix-column-remaining:before {
-        content: "Remanente"
+        content: "Remanente";
     }
     #tix td.tix-column-quantity:before {
-        content: "Cantidad"
+        content: "Cantidad";
     }
     body.single-wcb_sponsor #page .entry-header h1,
     #page .archive-header h1 {
         font-size: 24px;
-        line-height: 36px
+        line-height: 36px;
     }
     #tix-attendees .tix-columns-3 li {
         margin: 0 0 2%;
         width: 100%;
-        float: none
+        float: none;
     }
 }
 
@@ -1710,58 +1707,58 @@ table.tix_tickets_table td.tix-column-remaining {
     body .site {
         box-shadow: none;
         margin: 0;
-        padding: 0
+        padding: 0;
     }
     #main {
         max-width: 1120px;
         overflow: hidden margin: 0 auto;
     }
     body.home #main {
-        margin: 860px auto 0
+        margin: 860px auto 0;
     }
     .menu-primary-menu-container {
         background: transparent url('https://2015.buenosaires.wordcamp.org/files/2015/03/wcba-logo-web2.png') no-repeat top left;
-        padding: 0
+        padding: 0;
     }
 }
 
 @media screen and (min-width: 1100px) {
     body .site {
         margin: 0;
-        padding: 0
+        padding: 0;
     }
     #main {
-        padding: 0
+        padding: 0;
     }
 }
 
 @media screen and (min-width: 1600px) {
     .site,
     body.home .site {
-        background-size: contain
+        background-size: contain;
     }
 }
 
 article.page .entry-content {
-    padding: 5px 30px 15px
+    padding: 5px 30px 15px;
 }
 
 body.single-post .site-content article,
 body.single-wcb_speaker .site-content article,
 body.single-wcb_session .site-content article {
-    padding: 20px 0 15px
+    padding: 20px 0 15px;
 }
 
 body.single-wcb_session .entry-content {
-    margin-top: 40px
+    margin-top: 40px;
 }
 
 body.single-wcb_speaker h2.speaker-sessions {
-    padding: 25px 0 0
+    padding: 25px 0 0;
 }
 
 .single-wcb_speaker .entry-meta {
-    display: none
+    display: none;
 }
 
 .wcorg-speakers .wcorg-speaker a.social,
@@ -1773,32 +1770,32 @@ body.single-wcb_speaker h2.speaker-sessions {
     background-repeat: no-repeat;
     background-size: 16px 16px;
     background-position: 0 2px;
-    line-height: 18px
+    line-height: 18px;
 }
 
 .wcorg-speakers .wcorg-speaker a.social.website,
 .single-wcb_speaker a.website {
-    background-image: url("https://2015.buenosaires.wordcamp.org/files/2015/04/website.png")
+    background-image: url("https://2015.buenosaires.wordcamp.org/files/2015/04/website.png");
 }
 
 .wcorg-speakers .wcorg-speaker a.social.facebook,
 .single-wcb_speaker a.social.facebook {
-    background-image: url("https://2015.buenosaires.wordcamp.org/files/2015/04/facebook.png")
+    background-image: url("https://2015.buenosaires.wordcamp.org/files/2015/04/facebook.png");
 }
 
 .wcorg-speakers .wcorg-speaker a.social.twitter,
 .single-wcb_speaker a.social.twitter {
-    background-image: url("https://2015.buenosaires.wordcamp.org/files/2015/04/twitter.png")
+    background-image: url("https://2015.buenosaires.wordcamp.org/files/2015/04/twitter.png");
 }
 
 .wcorg-speakers .wcorg-speaker a.social.googleplus,
 .single-wcb_speaker a.social.googleplus {
-    background-image: url("https://2015.buenosaires.wordcamp.org/files/2015/04/googleplus.png")
+    background-image: url("https://2015.buenosaires.wordcamp.org/files/2015/04/googleplus.png");
 }
 
 .wcorg-speakers .wcorg-speaker a.social.linkedin,
 .single-wcb_speaker a.social.linkedin {
-    background-image: url("https://2015.buenosaires.wordcamp.org/files/2015/04/linkedin.png")
+    background-image: url("https://2015.buenosaires.wordcamp.org/files/2015/04/linkedin.png");
 }
 
 .wcorg-speakers .wcorg-speaker a.social.instagram,
@@ -1808,55 +1805,55 @@ body.single-wcb_speaker h2.speaker-sessions {
 
 .wcorg-speakers .wcorg-speaker a.social.pinterest,
 .single-wcb_speaker a.social.pinterest {
-    background-image: url("https://2015.buenosaires.wordcamp.org/files/2015/04/pinterest.png")
+    background-image: url("https://2015.buenosaires.wordcamp.org/files/2015/04/pinterest.png");
 }
 
 .wcorg-speakers .wcorg-speaker .wcorg-speaker-description {
-    margin-bottom: 30px
+    margin-bottom: 30px;
 }
 
 .wcorg-speakers .wcorg-speaker .wcorg-speaker-description h2 {
-    display: none
+    display: none;
 }
 
 .wcorg-speakers .wcorg-speaker img {
     float: right;
-    margin: 0 0 30px 30px
+    margin: 0 0 30px 30px;
 }
 
 .entry-content p + iframe {
     margin-top: 24px;
-    margin-top: 1.714285714rem
+    margin-top: 1.714285714rem;
 }
 
 th.wpct-col-time {
-    text-indent: -1000000px !important
+    text-indent: -1000000px !important;
 }
 
 table.wcpt-schedule td {
-    border: 1px solid #ddd !important
+    border: 1px solid #ddd !important;
 }
 
 table.wcpt-schedule th {
     background: #c63025;
     border: 1px solid #c63025 !important;
-    color: #fff
+    color: #fff;
 }
 
 table.wcpt-schedule td a {
-    text-decoration: none
+    text-decoration: none;
 }
 
 span.wcpt-session-speakers {
-    display: block
+    display: block;
 }
 
 span.wcpt-session-speakers a {
-    color: #c63025 !important
+    color: #c63025 !important;
 }
 
 a.wcpt-session-title {
-    text-decoration: none
+    text-decoration: none;
 }
 
 td.wcpt-time,
@@ -1868,37 +1865,37 @@ tr.wcpt-time-330pm td,
 tr.wcpt-time-425pm td,
 tr.wcpt-time-520pm td {
     background: #eee;
-    font-weight: 700
+    font-weight: 700;
 }
 
 td.wcb-track-sala-1,
 td.wcb-track-sala-2 {
-    width: 40%
+    width: 40%;
 }
 
 .widget a.sponsor-logo {
-    margin-bottom: 20px
+    margin-bottom: 20px;
 }
 
 #page .type-wcb_session > header {
     margin: 0;
     padding: 0;
-    position: relative
+    position: relative;
 }
 
 #page .type-wcb_session > header h1 {
     position: absolute;
     top: 50%;
-    transform: translateY(-50%)
+    transform: translateY(-50%);
 }
 
 ul#session-speaker-names li {
     padding: 0;
-    margin: 0
+    margin: 0;
 }
 
 .type-wcb_session .slides div {
-    display: none
+    display: none;
 }
 
 #after-header-widgets .widget {
@@ -1952,14 +1949,8 @@ ul#session-speaker-names li {
 }
 
 
-/*////// home slider///////*/
+/*======================  Home Slider ======================*/
 
-
-/*
-Welcome to Custom CSS!
-
-To learn how this works, see http://wp.me/PEmnE-Bt
-*/
 
 .container {
     position: relative;
@@ -1975,7 +1966,7 @@ To learn how this works, see http://wp.me/PEmnE-Bt
     height: 650px;
     margin: -80px 0 0 -40px;
     position: absolute;
-    background: #fff url("https://2016.sanjose.wordcamp.org/files/2016/08/Costa-Rica-San-Jose-View.jpg") no-repeat scroll 0px 0px
+    background: #fff url("https://2016.sanjose.wordcamp.org/files/2016/08/Costa-Rica-San-Jose-View.jpg") no-repeat scroll 0px 0px;
 }
 
 .slide1,
@@ -2009,46 +2000,46 @@ To learn how this works, see http://wp.me/PEmnE-Bt
 
 @keyframes fade {
     0% {
-        opacity: 1
+        opacity: 1;
     }
     33.333% {
-        opacity: 0
+        opacity: 0;
     }
     66.666% {
-        opacity: 0
+        opacity: 0;
     }
     100% {
-        opacity: 1
+        opacity: 1;
     }
 }
 
 @keyframes fade2 {
     0% {
-        opacity: 0
+        opacity: 0;
     }
     33.333% {
-        opacity: 1
+        opacity: 1;
     }
     66.666% {
-        opacity: 0
+        opacity: 0;
     }
     100% {
-        opacity: 0
+        opacity: 0;
     }
 }
 
 @keyframes fade3 {
     0% {
-        opacity: 0
+        opacity: 0;
     }
     33.333% {
-        opacity: 0
+        opacity: 0;
     }
     66.666% {
-        opacity: 1
+        opacity: 1;
     }
     100% {
-        opacity: 0
+        opacity: 0;
     }
 }
 
@@ -2139,7 +2130,7 @@ To learn how this works, see http://wp.me/PEmnE-Bt
         font-size: 26px!important;
     }
     .containerSlide > header {
-        padding-top: 0!important;
+        padding-top: 0 !important;
     }
 }
 
@@ -2237,7 +2228,7 @@ body #secondary::after {
     top: 17px;
     position: absolute;
     width: 100%;
-    z-index: 1
+    z-index: 1;
 }
 
 body.blog #page .entry-header,
@@ -2389,6 +2380,7 @@ div#primary-sidebar {
     padding-bottom: 150px;
 }
 
+
 /*================== Footer =====================*/
 
 div#footer-widgets {
@@ -2408,7 +2400,13 @@ div#footer-widgets {
 
 @media screen and (min-device-width: 426px) and ( max-device-width: 800px) {
     .widget a.sponsor-logo {
-        width: 45%;
+        width: 45% !important;
+    }
+    .footer-widgets-block {
+        width: 43% !important;
+        margin: 20px;
+        float: left;
+        min-height: 350px;
     }
 }
 
