@@ -704,6 +704,16 @@ a:hover {
 .entry-header .entry-meta {
     color: #fff;
 }
+.single .entry-header .entry-meta {
+    color: #333;
+    margin-top: -60px;
+}
+.single .entry-header .entry-meta a{
+    color: #c63025;
+}
+.single .entry-content{
+    margin-top:0; 
+}
 
 .entry-header .entry-meta a {
     color: #eee;
@@ -992,7 +1002,7 @@ body.page-template-page-templatesfull-width-php #page footer.entry-meta {}
 }
 
 body.single .entry-content {
-    padding: 60px 0 0;
+    padding: 0px 0 0;
 }
 
 .entry-content p,
@@ -2203,6 +2213,24 @@ ul#session-speaker-names li {
 }
 
 body.page-id-349 #secondary::before {
+    background-color: #fff;
+    color: #c63025;
+    content: "Sponsors";
+    display: inline-block;
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 34px;
+    font-weight: 600;
+    left: 0;
+    letter-spacing: 1px;
+    line-height: 34px;
+    padding: 0 40px 0 0;
+    position: relative;
+    text-transform: uppercase;
+    top: -80px;
+    z-index: 2;
+}
+
+body.single #secondary::before {
     background-color: #fff;
     color: #c63025;
     content: "Sponsors";
