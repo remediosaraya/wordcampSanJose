@@ -1543,6 +1543,10 @@ table.tix_tickets_table td.tix-column-remaining {
         font-size: 18px;
         line-height: 20px;
     }
+    .wcb_sponsor .entry-header h1{
+        position: absolute;
+        top: 0;
+    }
     .main-navigation {
         padding: 0;
     }
