@@ -81,7 +81,7 @@
         padding: 0px;
         margin: 1%;
     }
-    .slide1, .slide2, .slide3,.slider{width: 105%; max-height: 450px;}
+    .slide1, .slide2, .slide3,.slider{width: 110%!important; max-height: 550px;}
 }
 
 .home {
@@ -2064,6 +2064,7 @@ ul#session-speaker-names li {
     .containerSlide .logo {
         float: none!important;
         text-align: center;
+        padding-top: 50px;
     }
     .containerSlide .logo img {
         width: 120px;
