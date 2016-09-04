@@ -2406,8 +2406,8 @@ div#footer-widgets {
     max-width: 1240px;
     margin: 0 auto;
 }
-#footer-widgets .widget .textwidget{
-    margin: 0 0 1.5em
+#text-7 .textwidget{
+    margin: 0 0 10px!important;
 }
 
 /* ========================= Media Queries ============================= */
