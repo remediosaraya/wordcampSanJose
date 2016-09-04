@@ -332,44 +332,6 @@ footer[role="contentinfo"] a:hover {
     background: rgba(0, 0, 0, 0.1);
 }
 
-.main-navigation li.social {
-    margin: 0 2px;
-}
-
-.main-navigation li.social a {
-    padding: 0;
-    text-indent: -9999px;
-    transition: none;
-}
-
-.main-navigation li.twitter a {
-    background: transparent url('https://2015.buenosaires.wordcamp.org/files/2015/03/logo-twitter.png') no-repeat;
-    background-position: right center;
-    background-size: 16px 16px;
-    margin: 0 0 0 8px;
-    width: 19px;
-}
-
-.main-navigation li.twitter a:hover {
-    background-position: left center;
-}
-
-.main-navigation li.facebook a {
-    background: transparent url('https://2015.buenosaires.wordcamp.org/files/2015/03/logo-facebook.png') no-repeat;
-    background-position: right center;
-    background-size: 16px 16px;
-    width: 15px
-}
-
-.main-navigation li.facebook a:hover {
-    background-position: left center;
-}
-
-.main-navigation li.social a::after {
-    content: '';
-    padding: 0;
-}
-
 .main-navigation li a:hover {
     color: #cf3e31;
     text-decoration: none;
@@ -561,9 +523,6 @@ body.home #page #text-5 {
 }
 
 #page #text-4 {
-    background: url("https://2015.buenosaires.wordcamp.org/files/2015/05/wcba15-fotobsas2.jpg") no-repeat top center;
-    background-attachment: fixed;
-    background-size: cover;
     display: none;
     float: none;
     height: 460px;
@@ -660,12 +619,12 @@ body {
 
 a,
 a:visited {
-    color: #2d168a;
+    color: #931e16;
     text-decoration: none;
 }
 
 a:hover {
-    color: #2d168a;
+    color: #931e16;
     text-decoration: underline;
 }
 
@@ -734,16 +693,6 @@ body.page-template-full-width #page .entry-header {
     padding: 58px 0;
 }
 
-body.page-template-full-width #page .entry-title:before,
-body.page-template-full-width #page .entry-title:after {
-    content: "";
-    position: absolute;
-    top: 24px;
-    height: 15px;
-    width: 65px;
-    background: url("https://2015.buenosaires.wordcamp.org/files/2015/05/wcba-misc.png") no-repeat;
-    background-size: contain
-}
 
 body.page-template-full-width #page .entry-title:before {
     right: 100%;
@@ -1127,11 +1076,11 @@ body.single .entry-content {
 }
 
 #page .widget_text a {
-    color: #2d168a;
+    color: #931e16;
 }
 
 #page .widget_text a:hover {
-    color: #2d168a;
+    color: #931e16;
 }
 
 #page .widget_text #buddycamp-header {
@@ -1754,10 +1703,7 @@ table.tix_tickets_table td.tix-column-remaining {
     body.home #main {
         margin: 860px auto 0;
     }
-    .menu-primary-menu-container {
-        background: transparent url('https://2015.buenosaires.wordcamp.org/files/2015/03/wcba-logo-web2.png') no-repeat top left;
-        padding: 0;
-    }
+
 }
 
 @media screen and (min-width: 1100px) {
@@ -1809,41 +1755,6 @@ body.single-wcb_speaker h2.speaker-sessions {
     background-size: 16px 16px;
     background-position: 0 2px;
     line-height: 18px;
-}
-
-.wcorg-speakers .wcorg-speaker a.social.website,
-.single-wcb_speaker a.website {
-    background-image: url("https://2015.buenosaires.wordcamp.org/files/2015/04/website.png");
-}
-
-.wcorg-speakers .wcorg-speaker a.social.facebook,
-.single-wcb_speaker a.social.facebook {
-    background-image: url("https://2015.buenosaires.wordcamp.org/files/2015/04/facebook.png");
-}
-
-.wcorg-speakers .wcorg-speaker a.social.twitter,
-.single-wcb_speaker a.social.twitter {
-    background-image: url("https://2015.buenosaires.wordcamp.org/files/2015/04/twitter.png");
-}
-
-.wcorg-speakers .wcorg-speaker a.social.googleplus,
-.single-wcb_speaker a.social.googleplus {
-    background-image: url("https://2015.buenosaires.wordcamp.org/files/2015/04/googleplus.png");
-}
-
-.wcorg-speakers .wcorg-speaker a.social.linkedin,
-.single-wcb_speaker a.social.linkedin {
-    background-image: url("https://2015.buenosaires.wordcamp.org/files/2015/04/linkedin.png");
-}
-
-.wcorg-speakers .wcorg-speaker a.social.instagram,
-.single-wcb_speaker a.social.instagram {
-    background-image: url("https://2015.buenosaires.wordcamp.org/files/2015/04/instagram.png")
-}
-
-.wcorg-speakers .wcorg-speaker a.social.pinterest,
-.single-wcb_speaker a.social.pinterest {
-    background-image: url("https://2015.buenosaires.wordcamp.org/files/2015/04/pinterest.png");
 }
 
 .wcorg-speakers .wcorg-speaker .wcorg-speaker-description {
