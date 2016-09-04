@@ -1280,7 +1280,7 @@ article.type-wcb_speaker .entry-content h2 {
 .wcorg-organizer img {
     border-radius: 100%;
     float: left;
-    margin: 10px 10px 10px 15px;
+    margin: 40px 20px 50px 5px;
     width: 127px;
 }
 
@@ -1534,6 +1534,7 @@ table.tix_tickets_table td.tix-column-remaining {
     body.page-template-full-width #page .entry-title:after {
         top: 18px;
     }
+    .single-wcb_sponsor .site-content img{width: 85%; margin: 0 auto;}
     #page .entry-header h1,
     #page .archive-header h1 {
         font-size: 18px;
@@ -2347,8 +2348,7 @@ body.home .post .entry-header h1 {
 div#primary-sidebar {
     padding-bottom: 150px;
 }
-
-
+.single-wcb_sponsor .site-content img{width: 200px; margin: 5px 20px 40px 0; float: left;}
 /*================== Footer =====================*/
 
 div#footer-widgets {
