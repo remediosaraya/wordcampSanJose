@@ -783,13 +783,12 @@ body.archive .entry-content {
     text-decoration: none;
 }
 
-#page .more-link {
+#page .more-link , input[type="submit"]{
     background-color: #cf3e31;
     border-radius: 5px;
     color: #fff;
     display: inline-block;
     font-family: 'Libre Franklin', sans-serif;
-    ;
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 1px;
@@ -800,7 +799,7 @@ body.archive .entry-content {
     transition: all .5s ease;
 }
 
-#page .more-link:hover {
+#page .more-link:hover , input[type="submit"]:hover{
     background-color: #c63025;
     color: #fff;
     text-decoration: none;
@@ -2244,7 +2243,7 @@ body.single #secondary::before {
     padding: 0 40px 0 0;
     position: relative;
     text-transform: uppercase;
-    top: -80px;
+    top: -89px;
     z-index: 2;
 }
 
