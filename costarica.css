@@ -1421,7 +1421,7 @@ table.tix_tickets_table td.tix-column-remaining {
         overflow: hidden;
     }
     body.home #main {
-        margin: 860px auto 0;
+        margin: 500px auto 0;
     }
     body.page-template-full-width #page .entry-header {
         padding: 33px 0;
@@ -1524,7 +1524,7 @@ table.tix_tickets_table td.tix-column-remaining {
         margin: 0 0 10px;
     }
     body.home #main {
-        margin: 590px auto 0;
+        margin: 380px auto 0;
     }
     body.page-template-full-width #page .entry-header h1 {
         font-size: 24px;
