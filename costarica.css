@@ -728,7 +728,7 @@ body.archive .entry-content {
     text-decoration: none;
 }
 
-#page .more-link , input[type="submit"]{
+#page .more-link ,button, html input[type="button"], input[type="reset"], input[type="submit"]{
     background-color: #cf3e31;
     border-radius: 5px;
     color: #fff;
@@ -2348,7 +2348,7 @@ body.home .post .entry-header h1 {
 div#primary-sidebar {
     padding-bottom: 150px;
 }
-.single-wcb_sponsor .site-content img{width: 200px; margin: 5px 20px 40px 0; float: left;}
+.single-wcb_sponsor .site-content img{width: 200px; margin: 40px 20px 40px 0; float: left;}
 /*================== Footer =====================*/
 
 div#footer-widgets {
