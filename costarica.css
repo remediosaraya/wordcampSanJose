@@ -2397,3 +2397,5 @@ div#footer-widgets {
         width: 100%;
     }
 }
+
+button, html input[type="button"], input[type="reset"], input[type="submit"]{rgba(207, 62, 49, 0) -moz-linear-gradient(center top , #cf3e31 60%, #cf3e36 100%) repeat scroll 0 0}
