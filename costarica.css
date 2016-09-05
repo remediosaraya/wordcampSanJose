@@ -2369,7 +2369,7 @@ div#footer-widgets {
     max-width: 1240px;
     margin: 0 auto;
 }
-#text-7 .textwidget{
+#page  #text-7 .widget .textwidget{
     margin: 0 0 10px!important;
 }
 
