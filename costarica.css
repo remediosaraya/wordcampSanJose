@@ -81,7 +81,7 @@
         padding: 0px;
         margin: 1%;
     }
-    .slide1, .slide2, .slide3,.slider{width: 110%!important; max-height: 550px;}
+    .slide1, .slide2, .slide3,.slider{width: 110%!important; max-height: 550px; }
 }
 input[type="submit"],#tix input[type="submit"],#page .more-link ,button, html input[type="button"], input[type="reset"], input[type="submit"]{
     border: solid 1px #cf3e31!important;
