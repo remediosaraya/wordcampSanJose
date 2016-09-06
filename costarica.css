@@ -1926,7 +1926,6 @@ ul#session-speaker-names li {
 }
 
 .slider {
-    width: 104%;
     height: 650px;
     margin: -80px 0 0 -40px;
     position: absolute;
@@ -2087,8 +2086,7 @@ ul#session-speaker-names li {
     .containerSlide .slideText {
         float: center;
         text-align: center;
-        margin-left: 0;
-        margin-top: 20px;
+        margin: 20px 30px 0;
         width: auto;
     }
     .containerSlide > header h1 {
