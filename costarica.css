@@ -954,7 +954,7 @@ body.blog .comments-link {
     text-decoration: none;
 }
 
-footer .widget_text a{color: #c63025;}
+footer .widget_text a{color: #c63025!important;}
 body.page-template-default #page footer.entry-meta,
 body.page-template-page-templatesfull-width-php #page footer.entry-meta {}
 
