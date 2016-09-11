@@ -254,7 +254,7 @@ footer[role="contentinfo"] a:hover {
 }
 
 .site-info::after {
-    content: "WordCamp Costa Rica / 5 de noviembre, 2016";
+    content: "WordCamp Costa Rica / 5 y 6 de noviembre, 2016";
 }
 
 .site-header {
@@ -954,6 +954,7 @@ body.blog .comments-link {
     text-decoration: none;
 }
 
+footer .widget_text a{color: #c63025;}
 body.page-template-default #page footer.entry-meta,
 body.page-template-page-templatesfull-width-php #page footer.entry-meta {}
 
@@ -1927,7 +1928,7 @@ ul#session-speaker-names li {
 
 .slider {
     height: 650px;
-    margin: -80px 0 0 -40px;
+    margin: -80px -10px 0 -10px;
     position: absolute;
     background: #fff url("https://2016.sanjose.wordcamp.org/files/2016/08/Costa-Rica-San-Jose-View.jpg") no-repeat scroll 0px 0px;
 }
