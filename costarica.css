@@ -81,6 +81,14 @@
         padding: 0px;
         margin: 1%;
     }
+    .in-kind a {
+        width: 18%;
+        float: left;
+        margin: 1%;
+        height: 90px;
+        padding: 0px;
+        margin: 1%;
+    }
     .slide1, .slide2, .slide3,.slider{width: 110%!important; max-height: 550px; }
 }
 .slide1, .slide2, .slide3,.slider{width: 110%!important;}
@@ -2310,6 +2318,15 @@ body.home .post .entry-header h1 {
 
 .bronce a {
     width: 8%;
+    float: left;
+    /* border: 1px solid #ff7b6f !important; */
+    margin: 1%;
+    height: 80px;
+    padding: 0px;
+    margin: 1%;
+}
+.in-kind a{
+    width: 13%;
     float: left;
     /* border: 1px solid #ff7b6f !important; */
     margin: 1%;
