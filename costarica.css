@@ -2370,10 +2370,13 @@ body.home .post .entry-header h1 {
 }
 
 #tix-attendees li img,
-.wcorg-organizer img {
+.wcorg-organizer img,.speaker-avatar img  {
     background: url(http://2016.sanjose.wordcamp.org/files/2016/08/attenders.png) no-repeat center center;
     padding: 25px 28px 24px 26px;
 }
+
+.speaker-avatar {float: left!important; margin: 5px 15px 50px 0;}
+
 
 div#primary-sidebar {
     padding-bottom: 150px;
