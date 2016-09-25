@@ -2382,9 +2382,11 @@ body.home .post .entry-header h1 {
     padding: 25px 28px 24px 26px;
     border-radius: 100px;
     float: left;
-    margin: 5px 15px 50px 0;
+    margin: 15px 15px 50px 0;
     width: 125px!important;
 }
+.wcorg-session{margin-top: -50px}
+.wcorg-session h2{margin: 20px 0;}
 .wcorg-session-description{padding-bottom: 50px;}
 
 div#primary-sidebar {
