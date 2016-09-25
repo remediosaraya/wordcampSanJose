@@ -2377,6 +2377,14 @@ body.home .post .entry-header h1 {
 .wcorg-organizer img{max-width: 130px; max-height: 130px;}
 .speaker-avatar {float: left!important; margin: 5px 15px 50px 0;}
 .speaker-avatar img{padding: 35px 38px 33px 36px; background-size: 163px;  }
+.wcorg-speaker-description .avatar{
+    background: url(http://2016.sanjose.wordcamp.org/files/2016/08/attenders.png) no-repeat center center;
+    padding: 25px 28px 24px 26px;
+    border-radius: 100px;
+    float: left;
+    margin: 15px 15px 50px 0;
+    width: 125px!important;
+}
 .wcorg-session-description .avatar{
     background: url(http://2016.sanjose.wordcamp.org/files/2016/08/attenders.png) no-repeat center center;
     padding: 25px 28px 24px 26px;
