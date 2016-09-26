@@ -1534,6 +1534,12 @@ table.tix_tickets_table td.tix-column-remaining {
         background: #fff url('https://2016.sanjose.wordcamp.org/files/2016/08/Costa-Rica-San-Jose-View.jpg') no-repeat 0 48px;
         background-size: 1001px 338px;
     }
+    .entry-content {
+    padding: 5px 15px 15px;
+    }
+    .entry-content .entry-content {
+    padding: 0px;
+    }
     #page #text-4 {
         top: 48px
     }
