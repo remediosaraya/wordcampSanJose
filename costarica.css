@@ -5,92 +5,7 @@
     position: absolute
 }
 
-@media screen and (max-width: 600px) {
-    html {
-        margin: 0!important;
-    }
-    .home #wpadminbar {
-        display: none!important;
-    }
-    .menu-menu-1-container {
-        background: #c63025;
-        width: 80%;
-        box-shadow: -2px 1px 3px #333;
-        float: right;
-        right: -1px;
-    }
-    .menu-menu-1-container ul {
-        list-style: none;
-        height: 100%;
-        margin: 0px;
-    }
-    .menu-menu-1-container .menu {
-        margin: 80px 5px 200px;
-    }
-    .menu-menu-1-container ul li {
-        font-size: 18px;
-        padding: 0;
-        border-top: solid 1px #8a1c12;
-    }
-    .menu-menu-1-container ul li a {
-        color: #fff;
-        text-decoration: none;
-        display: block;
-        width: 100%;
-        padding: 10px 0px 10px 10px;
-        -webkit-transition: background-color 1000ms linear;
-        -moz-transition: background-color 1000ms linear;
-        -o-transition: background-color 1000ms linear;
-        -ms-transition: background-color 1000ms linear;
-        transition: background-color 1000ms linear;
-    }
-    .menu-menu-1-container ul li a:hover {
-        background: #8a1c12;
-    }
-    body.home .site {
-        min-height: 90px;
-    }
-    .platino a {
-        width: 31%;
-        float: left;
-        height: 125px;
-        padding: 0px;
-        margin: 1%;
-    }
-    .oro a {
-        width: 23%;
-        float: left;
-        margin: 1%;
-        height: 100px;
-        padding: 0px;
-        margin: 1%;
-    }
-    .plata a {
-        width: 18%;
-        float: left;
-        margin: 1%;
-        height: 90px;
-        padding: 0px;
-        margin: 1%;
-    }
-    .bronce a {
-        width: 13%;
-        float: left;
-        margin: 1%;
-        height: 60px;
-        padding: 0px;
-        margin: 1%;
-    }
-    .in-kind a {
-        width: 18%;
-        float: left;
-        margin: 1%;
-        height: 90px;
-        padding: 0px;
-        margin: 1%;
-    }
-    .slide1, .slide2, .slide3,.slider{width: 110%!important; max-height: 550px; }
-}
+
 .slide1, .slide2, .slide3,.slider{width: 110%!important;}
 input[type="submit"],#tix input[type="submit"],#page .more-link ,button, html input[type="button"], input[type="reset"], input[type="submit"]{
     border: solid 1px #cf3e31!important;
@@ -1377,381 +1292,7 @@ table.tix_tickets_table td.tix-column-remaining {
     text-decoration: none;
 }
 
-@media screen and (max-width: 1500px) {
-    .menu-primary-menu-container::before {
-        background: transparent;
-        background-size: 174px 36px;
-        height: 36px;
-        margin: 26px 0 0;
-        width: 174px;
-    }
-}
 
-@media screen and (max-width: 1250px) {
-    .main-navigation,
-    .site-info {
-        padding: 0 40px;
-    }
-    .main-navigation li a {
-        font-size: 14px;
-        padding: 0 0 0 4px;
-    }
-    .main-navigation li a::after {
-        padding: 0 0 0 8px;
-    }
-    .main-navigation li.twitter a {
-        margin: 0 0 0 4px;
-    }
-}
-
-@media screen and (max-width: 1000px) {
-    .menu-primary-menu-container::before {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 900px) {
-    .site {
-        background-size: 1001px 103px;
-    }
-    body.home .site {
-        background-size: 1001px 338px;
-    }
-    #page #text-4 {
-        height: 527px;
-    }
-    #page #text-4 #home-logo {
-        margin: 60px 0;
-        max-width: 300px;
-    }
-    #page #text-4 #register-widget {
-        height: 159px;
-        padding: 30px 0 0;
-    }
-    #page #text-5 {
-        height: 281px;
-        top: 700px;
-    }
-    #page #text-5 .header-widget {
-        padding: 40px 0 0;
-    }
-    .main-navigation li a {
-        line-height: 45px;
-    }
-    .site {
-        margin: 0;
-        max-width: 100%;
-        overflow: hidden;
-    }
-    body.home #main {
-        margin: 500px auto 0;
-    }
-    body.page-template-full-width #page .entry-header {
-        padding: 33px 0;
-        overflow: hidden;
-    }
-    body.page-template-full-width #page .entry-header h1 {
-        font-size: 32px;
-        line-height: 38px;
-    }
-    body.page-template-full-width #page .entry-title:before,
-    body.page-template-full-width #page .entry-title:after {
-        top: 19px
-    }
-    #page .entry-header,
-    #page .archive-header {
-        padding: 14px 0 0;
-        height: 89px;
-    }
-    .entry-content {
-        padding: 50px 0;
-    }
-    #secondary {
-        margin: 103px 0 0;
-        padding: 50px 0 0;
-    }
-    body.single .entry-content {
-        padding: 50px 0 0
-    }
-    .menu-primary-menu-container {
-        background: none;
-        padding: 0;
-    }
-    #text-5 {
-        display: none;
-    }
-    body.template-front-page #page #main {
-        background: none;
-        background-color: #fff;
-        padding-top: 0;
-    }
-    .first.front-widgets {
-        display: none;
-    }
-    body.page-template-page-templatesfull-width-php .entry-content .sponsor-logo {
-        width: 42%;
-    }
-    body.template-front-page #page #primary,
-    #primary {
-        float: none;
-        padding-bottom: 30px;
-        width: auto;
-    }
-    body.template-front-page #page #secondary,
-    #secondary {
-        float: none;
-        margin: 0;
-        padding: 0 4%;
-    }
-    .site-content nav {
-        margin: 0;
-    }
-    body.single-wcba_sponsor #page .entry-header,
-    #page .archive-header {
-        padding: 33px 0;
-        height: auto;
-    }
-    body.single-wcba_sponsor #page .entry-header h1,
-    #page .archive-header h1 {
-        font-size: 32px;
-        line-height: 38px;
-    }
-    #tix-attendees .tix-columns-3 li {
-        width: 46%;
-    }
-    .wcorg-organizer {
-        width: 100%;
-        float: none;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .site {
-        background: #fff url('Costa-Rica-San-Jose-View.jpg') no-repeat 0 48px;
-        background-size: 1001px 103px;
-    }
-    body.home .site {
-        background: #fff url('https://2016.sanjose.wordcamp.org/files/2016/08/Costa-Rica-San-Jose-View.jpg') no-repeat 0 48px;
-        background-size: 1001px 338px;
-    }
-    .entry-content {
-    padding: 5px 0 15px;
-    }
-    .entry-content .entry-content {
-    padding: 0px;
-    }
-    #page #text-4 {
-        top: 48px
-    }
-    #page #text-4 #home-logo {
-        margin: 74px 0;
-        max-width: 260px;
-    }
-    #page #text-4 #register-widget h2 {
-        font-size: 16px;
-        line-height: 26px;
-        margin: 0 0 10px;
-    }
-    body.home #main {
-        margin: 380px auto 0;
-    }
-    body.page-template-full-width #page .entry-header h1 {
-        font-size: 24px;
-        line-height: 36px;
-    }
-    body.page-template-full-width #page .entry-title:before,
-    body.page-template-full-width #page .entry-title:after {
-        top: 18px;
-    }
-    .single-wcb_sponsor .site-content img{width: 85%; margin: 0 auto;}
-    #page .entry-header h1,
-    #page .archive-header h1 {
-        font-size: 18px;
-        line-height: 20px;
-    }
-    .wcb_sponsor .entry-header h1{
-        position: absolute;
-        top: 0;
-    }
-    .main-navigation {
-        padding: 0;
-    }
-    .main-navigation li a {
-        display: block;
-        line-height: 38px;
-        text-decoration: none;
-    }
-    .main-navigation li a::after {
-        display: none;
-    }
-    .main-navigation li.social {
-        margin: 0 5px;
-        display: inline-block;
-    }
-    .site-info {
-        font-size: 16px;
-        line-height: 30px;
-        text-align: center;
-        padding: 15px;
-    }
-    .site-info a {
-        float: none;
-        display: block;
-    }
-    .nav-next,
-    .nav-previous {
-        display: block;
-        float: none;
-        width: 100%;
-    }
-    .nav-previous {
-        margin: 0 0 10px;
-    }
-    .site-content nav {
-        margin: 0;
-    }
-    body.home #page #text-5 {
-        display: none;
-    }
-    .main-navigation li ul li a {
-        background: none;
-        border: none;
-        color: #fff !important;
-    }
-    .main-navigation li ul li a:hover {
-        background: none;
-        color: rgba(255, 255, 255, 0.65) !important;
-    }
-    body.page-template-page-templatesfull-width-php .entry-content .sponsor-logo {
-        float: none;
-        width: 84%;
-    }
-    table,
-    thead,
-    tbody,
-    th,
-    td,
-    tr {
-        display: block;
-    }
-    .entry-content .t-key th {
-        display: inline;
-        font-size: 9px;
-        padding: 10px 5px;
-    }
-    thead tr {
-        position: absolute;
-        top: -9999px;
-        left: -9999px;
-    }
-    td {
-        border: none;
-        position: relative;
-        padding-left: 50%;
-    }
-    .entry-content .t-biz,
-    .entry-content .t-dev1,
-    .entry-content .t-dev2,
-    .entry-content .t-des,
-    .entry-content .t-gen {
-        padding: 27px 10px 6px;
-    }
-    td:before {
-        position: absolute;
-        top: 6px;
-        left: 10px;
-        width: auto;
-        text-transform: uppercase;
-        padding-right: 10px;
-        white-space: nowrap;
-    }
-    #wordcamp-schedule td:nth-of-type(2):before {
-        content: "";
-    }
-    #wordcamp-schedule td:nth-of-type(3):before {
-        content: "";
-    }
-    #wordcamp-schedule td:nth-of-type(4):before {
-        content: "";
-    }
-    #wordcamp-schedule td:nth-of-type(5):before {
-        content: "";
-    }
-    #wordcamp-schedule td.t-row:before {
-        content: ""
-    }
-    #business-summit-schedule td:nth-of-type(2):before {
-        content: "";
-    }
-    #business-summit-schedule td.t-row:before {
-        content: ""
-    }
-    #tix td.tix-column-price,
-    #tix td.tix-column-remaining,
-    #tix td.tix-column-quantity {
-        padding-top: 25px;
-    }
-    #tix td:before {
-        color: #636363;
-        font-size: 11px;
-        font-size: .785714286rem;
-        line-height: 2.181818182;
-        font-weight: 700;
-    }
-    #tix td.tix-column-price:before {
-        content: "Precio";
-    }
-    #tix td.tix-column-remaining:before {
-        content: "Remanente";
-    }
-    #tix td.tix-column-quantity:before {
-        content: "Cantidad";
-    }
-    body.single-wcb_sponsor #page .entry-header h1,
-    #page .archive-header h1 {
-        font-size: 24px;
-        line-height: 36px;
-    }
-    #tix-attendees .tix-columns-3 li {
-        margin: 0 0 2%;
-        width: 100%;
-        float: none;
-    }
-}
-
-@media screen and (min-width: 900px) {
-    body .site {
-        box-shadow: none;
-        margin: 0;
-        padding: 0;
-    }
-    #main {
-        max-width: 1120px;
-        overflow: hidden;
-        margin: 0 auto;
-    }
-    body.home #main {
-        margin: 860px auto 0;
-    }
-
-}
-
-@media screen and (min-width: 1100px) {
-    body .site {
-        margin: 0;
-        padding: 0;
-    }
-    #main {
-        padding: 0;
-    }
-}
-
-@media screen and (min-width: 1600px) {
-    .site,
-    body.home .site {
-        background-size: contain;
-    }
-}
 
 article.page .entry-content {
     padding: 5px 30px 15px;
@@ -2079,64 +1620,6 @@ ul#session-speaker-names li {
 /* Header Style */
 
 
-/* Media Queries */
-
-@media screen and (max-width: 767px) {
-    .containerSlide > header {
-        text-align: center;
-    }
-    p.codrops-demos {
-        position: relative;
-        top: auto;
-        left: auto;
-    }
-    .containerSlide .logo {
-        float: none!important;
-        text-align: center;
-        padding-top: 50px;
-    }
-    .containerSlide .logo img {
-        width: 120px;
-    }
-    .containerSlide .slideText {
-        float: center;
-        text-align: center;
-        margin: 20px 30px 0;
-        width: auto;
-    }
-    .containerSlide > header h1 {
-        font-size: 26px!important;
-    }
-    .containerSlide > header {
-        padding-top: 0 !important;
-    }
-}
-
-@media screen and (max-width: 1140px) {
-    .cb-slideshow li div h3 {
-        font-size: 100px;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .cb-slideshow li div h3 {
-        font-size: 50px;
-    }
-    .footer-widgets-block {
-        display: none;
-    }
-    .home .category-news {
-        width: 98%!important;
-        background: #fff;
-        margin: 1%!important;
-        float: left;
-        padding: 10px!important;
-        border: solid 1px #ff7b6f!important;
-    }
-    .sub-menu {
-        margin: 10px 0 0 -10px;
-    }
-}
 
 .footer-widgets-block {
     width: 23%;
@@ -2402,7 +1885,7 @@ body.home .post .entry-header h1 {
 .wcorg-sessions{margin-top: -50px}
 .wcorg-session h2{margin: 20px 0;}
 .wcorg-session-description{padding-bottom: 50px;}
-
+button, html input[type="button"], input[type="reset"], input[type="submit"]{background:rgba(207, 62, 49, 0) -moz-linear-gradient(center top , #cf3e31 60%, #cf3e36 100%) repeat scroll 0 0}
 div#primary-sidebar {
     padding-bottom: 150px;
 }
@@ -2420,10 +1903,519 @@ div#footer-widgets {
 
 /* ========================= Media Queries ============================= */
 
+
+@media screen and (max-width: 1500px) {
+    .menu-primary-menu-container::before {
+        background: transparent;
+        background-size: 174px 36px;
+        height: 36px;
+        margin: 26px 0 0;
+        width: 174px;
+    }
+    .site,body.home .site {
+        background-size: contain;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .main-navigation,
+    .site-info {
+        padding: 0 40px;
+    }
+    .main-navigation li a {
+        font-size: 14px;
+        padding: 0 0 0 4px;
+    }
+    .main-navigation li a::after {
+        padding: 0 0 0 8px;
+    }
+    .main-navigation li.twitter a {
+        margin: 0 0 0 4px;
+    }
+}
 @media screen and (min-device-width: 1240px) and (max-device-width: 1800px) and (-webkit-min-device-pixel-ratio: 1) {
     .slider {
         background-size: cover;
     }
+}
+@media screen and (max-width: 1140px) {
+    .cb-slideshow li div h3 {
+        font-size: 100px;
+    }
+}
+@media screen and (min-width: 1100px) {
+    body .site {
+        margin: 0;
+        padding: 0;
+    }
+    #main {
+        padding: 0;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .menu-primary-menu-container::before {
+        display: none;
+    }
+}
+@media screen and (min-width: 900px) {
+    body .site {
+        box-shadow: none;
+        margin: 0;
+        padding: 0;
+    }
+    #main {
+        max-width: 1120px;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+    body.home #main {
+        margin: 860px auto 0;
+    }
+
+}
+@media screen and (max-width: 900px) {
+    .site {
+        background-size: 1001px 103px;
+    }
+    body.home .site {
+        background-size: 1001px 338px;
+    }
+    #page #text-4 {
+        height: 527px;
+    }
+    #page #text-4 #home-logo {
+        margin: 60px 0;
+        max-width: 300px;
+    }
+    #page #text-4 #register-widget {
+        height: 159px;
+        padding: 30px 0 0;
+    }
+    #page #text-5 {
+        height: 281px;
+        top: 700px;
+    }
+    #page #text-5 .header-widget {
+        padding: 40px 0 0;
+    }
+    .main-navigation li a {
+        line-height: 45px;
+    }
+    .site {
+        margin: 0;
+        max-width: 100%;
+        overflow: hidden;
+    }
+    body.home #main {
+        margin: 500px auto 0;
+    }
+    body.page-template-full-width #page .entry-header {
+        padding: 33px 0;
+        overflow: hidden;
+    }
+    body.page-template-full-width #page .entry-header h1 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+    body.page-template-full-width #page .entry-title:before,
+    body.page-template-full-width #page .entry-title:after {
+        top: 19px
+    }
+    #page .entry-header,
+    #page .archive-header {
+        padding: 14px 0 0;
+        height: 89px;
+    }
+    .entry-content {
+        padding: 50px 0;
+    }
+    #secondary {
+        margin: 103px 0 0;
+        padding: 50px 0 0;
+    }
+    body.single .entry-content {
+        padding: 50px 0 0
+    }
+    .menu-primary-menu-container {
+        background: none;
+        padding: 0;
+    }
+    #text-5 {
+        display: none;
+    }
+    body.template-front-page #page #main {
+        background: none;
+        background-color: #fff;
+        padding-top: 0;
+    }
+    .first.front-widgets {
+        display: none;
+    }
+    body.page-template-page-templatesfull-width-php .entry-content .sponsor-logo {
+        width: 42%;
+    }
+    body.template-front-page #page #primary,
+    #primary {
+        float: none;
+        padding-bottom: 30px;
+        width: auto;
+    }
+    body.template-front-page #page #secondary,
+    #secondary {
+        float: none;
+        margin: 0;
+        padding: 0 4%;
+    }
+    .site-content nav {
+        margin: 0;
+    }
+    body.single-wcba_sponsor #page .entry-header,
+    #page .archive-header {
+        padding: 33px 0;
+        height: auto;
+    }
+    body.single-wcba_sponsor #page .entry-header h1,
+    #page .archive-header h1 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+    #tix-attendees .tix-columns-3 li {
+        width: 46%;
+    }
+    .wcorg-organizer {
+        width: 100%;
+        float: none;
+    }
+}
+@media screen and (max-width: 720px) {
+    .cb-slideshow li div h3 {
+        font-size: 50px;
+    }
+    .footer-widgets-block {
+        display: none;
+    }
+    .home .category-news {
+        width: 98%!important;
+        background: #fff;
+        margin: 1%!important;
+        float: left;
+        padding: 10px!important;
+        border: solid 1px #ff7b6f!important;
+    }
+    .sub-menu {
+        margin: 10px 0 0 -10px;
+    }
+    .site {
+        background: #fff url('Costa-Rica-San-Jose-View.jpg') no-repeat 0 48px;
+        background-size: 1001px 103px;
+    }
+    .wcorg-sponsor-description img {
+        float: none;
+        margin: 0;
+        max-width: 100%;
+    }
+    .containerSlide > header {
+        text-align: center;
+    }
+    p.codrops-demos {
+        position: relative;
+        top: auto;
+        left: auto;
+    }
+    .containerSlide .logo {
+        float: none!important;
+        text-align: center;
+        padding-top: 50px;
+    }
+    .containerSlide .logo img {
+        width: 120px;
+    }
+    .containerSlide .slideText {
+        float: center;
+        text-align: center;
+        margin: 20px 30px 0;
+        width: auto;
+    }
+    .containerSlide > header h1 {
+        font-size: 26px!important;
+    }
+    .containerSlide > header {
+        padding-top: 0 !important;
+    }
+    body ul{margin-left: 5px!important;}
+    body.home .site {
+        background: #fff url('https://2016.sanjose.wordcamp.org/files/2016/08/Costa-Rica-San-Jose-View.jpg') no-repeat 0 48px;
+        background-size: 1001px 338px;
+    }
+    .entry-content {
+    padding: 5px 0 15px!important;
+    }
+    .entry-content .entry-content {
+    padding: 0px;
+    }
+    #page #text-4 {
+        top: 48px
+    }
+    #page #text-4 #home-logo {
+        margin: 74px 0;
+        max-width: 260px;
+    }
+    #page #text-4 #register-widget h2 {
+        font-size: 16px;
+        line-height: 26px;
+        margin: 0 0 10px;
+    }
+    body.home #main {
+        margin: 380px auto 0;
+    }
+    body.page-template-full-width #page .entry-header h1 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    body.page-template-full-width #page .entry-title:before,
+    body.page-template-full-width #page .entry-title:after {
+        top: 18px;
+    }
+    .single-wcb_sponsor .site-content img{width: 85%; margin: 0 auto;}
+    #page .entry-header h1,
+    #page .archive-header h1 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .wcb_sponsor .entry-header h1{
+        position: absolute;
+        top: 0;
+    }
+    .main-navigation {
+        padding: 0;
+    }
+    .main-navigation li a {
+        display: block;
+        line-height: 38px;
+        text-decoration: none;
+    }
+    .main-navigation li a::after {
+        display: none;
+    }
+    .main-navigation li.social {
+        margin: 0 5px;
+        display: inline-block;
+    }
+    .site-info {
+        font-size: 16px;
+        line-height: 30px;
+        text-align: center;
+        padding: 15px;
+    }
+    .site-info a {
+        float: none;
+        display: block;
+    }
+    .nav-next,
+    .nav-previous {
+        display: block;
+        float: none;
+        width: 100%;
+    }
+    .nav-previous {
+        margin: 0 0 10px;
+    }
+    .site-content nav {
+        margin: 0;
+    }
+    body.home #page #text-5 {
+        display: none;
+    }
+    .main-navigation li ul li a {
+        background: none;
+        border: none;
+        color: #fff !important;
+    }
+    .main-navigation li ul li a:hover {
+        background: none;
+        color: rgba(255, 255, 255, 0.65) !important;
+    }
+    body.page-template-page-templatesfull-width-php .entry-content .sponsor-logo {
+        float: none;
+        width: 84%;
+    }
+    table,
+    thead,
+    tbody,
+    th,
+    td,
+    tr {
+        display: block;
+    }
+    .entry-content .t-key th {
+        display: inline;
+        font-size: 9px;
+        padding: 10px 5px;
+    }
+    thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+    td {
+        border: none;
+        position: relative;
+        padding-left: 50%;
+    }
+    .entry-content .t-biz,
+    .entry-content .t-dev1,
+    .entry-content .t-dev2,
+    .entry-content .t-des,
+    .entry-content .t-gen {
+        padding: 27px 10px 6px;
+    }
+    td:before {
+        position: absolute;
+        top: 6px;
+        left: 10px;
+        width: auto;
+        text-transform: uppercase;
+        padding-right: 10px;
+        white-space: nowrap;
+    }
+    #wordcamp-schedule td:nth-of-type(2):before {
+        content: "";
+    }
+    #wordcamp-schedule td:nth-of-type(3):before {
+        content: "";
+    }
+    #wordcamp-schedule td:nth-of-type(4):before {
+        content: "";
+    }
+    #wordcamp-schedule td:nth-of-type(5):before {
+        content: "";
+    }
+    #wordcamp-schedule td.t-row:before {
+        content: ""
+    }
+    #business-summit-schedule td:nth-of-type(2):before {
+        content: "";
+    }
+    #business-summit-schedule td.t-row:before {
+        content: ""
+    }
+    #tix td.tix-column-price,
+    #tix td.tix-column-remaining,
+    #tix td.tix-column-quantity {
+        padding-top: 25px;
+    }
+    #tix td:before {
+        color: #636363;
+        font-size: 11px;
+        font-size: .785714286rem;
+        line-height: 2.181818182;
+        font-weight: 700;
+    }
+    #tix td.tix-column-price:before {
+        content: "Precio";
+    }
+    #tix td.tix-column-remaining:before {
+        content: "Remanente";
+    }
+    #tix td.tix-column-quantity:before {
+        content: "Cantidad";
+    }
+    body.single-wcb_sponsor #page .entry-header h1,
+    #page .archive-header h1 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    #tix-attendees .tix-columns-3 li {
+        margin: 0 0 2%;
+        width: 100%;
+        float: none;
+    }
+}
+@media screen and (max-width: 600px) {
+    html {
+        margin: 0!important;
+    }
+    .home #wpadminbar {
+        display: none!important;
+    }
+    .menu-menu-1-container {
+        background: #c63025;
+        width: 80%;
+        box-shadow: -2px 1px 3px #333;
+        float: right;
+        right: -1px;
+    }
+    .menu-menu-1-container ul {
+        list-style: none;
+        height: 100%;
+        margin: 0px;
+    }
+    .menu-menu-1-container .menu {
+        margin: 80px 5px 200px;
+    }
+    .menu-menu-1-container ul li {
+        font-size: 18px;
+        padding: 0;
+        border-top: solid 1px #8a1c12;
+    }
+    .menu-menu-1-container ul li a {
+        color: #fff;
+        text-decoration: none;
+        display: block;
+        width: 100%;
+        padding: 10px 0px 10px 10px;
+        -webkit-transition: background-color 1000ms linear;
+        -moz-transition: background-color 1000ms linear;
+        -o-transition: background-color 1000ms linear;
+        -ms-transition: background-color 1000ms linear;
+        transition: background-color 1000ms linear;
+    }
+    .menu-menu-1-container ul li a:hover {
+        background: #8a1c12;
+    }
+    body.home .site {
+        min-height: 90px;
+    }
+    .platino a {
+        width: 31%;
+        float: left;
+        height: 125px;
+        padding: 0px;
+        margin: 1%;
+    }
+    .oro a {
+        width: 23%;
+        float: left;
+        margin: 1%;
+        height: 100px;
+        padding: 0px;
+        margin: 1%;
+    }
+    .plata a {
+        width: 18%;
+        float: left;
+        margin: 1%;
+        height: 90px;
+        padding: 0px;
+        margin: 1%;
+    }
+    .bronce a {
+        width: 13%;
+        float: left;
+        margin: 1%;
+        height: 60px;
+        padding: 0px;
+        margin: 1%;
+    }
+    .in-kind a {
+        width: 18%;
+        float: left;
+        margin: 1%;
+        height: 90px;
+        padding: 0px;
+        margin: 1%;
+    }
+    .slide1, .slide2, .slide3,.slider{width: 110%!important; max-height: 550px; }
 }
 
 @media screen and (min-device-width: 426px) and ( max-device-width: 800px) {
@@ -2444,4 +2436,3 @@ div#footer-widgets {
     }
 }
 
-button, html input[type="button"], input[type="reset"], input[type="submit"]{rgba(207, 62, 49, 0) -moz-linear-gradient(center top , #cf3e31 60%, #cf3e36 100%) repeat scroll 0 0}
