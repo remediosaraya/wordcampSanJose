@@ -1535,7 +1535,7 @@ table.tix_tickets_table td.tix-column-remaining {
         background-size: 1001px 338px;
     }
     .entry-content {
-    padding: 5px 15px 15px;
+    padding: 5px 0 15px;
     }
     .entry-content .entry-content {
     padding: 0px;
