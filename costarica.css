@@ -1883,6 +1883,26 @@ body.home .post .entry-header h1 {
     margin: 15px 15px 50px 0;
     width: 125px!important;
 }
+
+td.wcpt-time, tr.wcpt-time-900am td, tr.wcpt-time-945am td, tr.wcpt-time-1120am td, tr.wcpt-time-100pm td, tr.wcpt-time-330pm td, tr.wcpt-time-425pm td, tr.wcpt-time-520pm td {
+    background: #fff !important;
+    font-weight: normal !important;
+}
+table.wcpt-schedule td{
+    text-align: center;
+}
+
+td.wcpt-time, tr.wcpt-time-830am td, tr.wcpt-time-1200pm td, tr.wcpt-time-315pm td, tr.wcpt-time-630pm td{
+    background: #eee !important;
+    font-weight: normal !important;
+}
+
+td.wcpt-time, tr.wcpt-time-900am td, tr.wcpt-time-530pm td{
+    background: #ccc !important;
+    font-weight: normal !important;
+}
+
+
 .wcorg-sessions{margin-top: -50px}
 .wcorg-session h2{margin: 20px 0;}
 .wcorg-session-description{padding-bottom: 50px;}
