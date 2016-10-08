@@ -1884,7 +1884,7 @@ body.home .post .entry-header h1 {
     width: 125px!important;
 }
 
-td.wcpt-time, tr.wcpt-time-900am td, tr.wcpt-time-945am td, tr.wcpt-time-1120am td, tr.wcpt-time-100pm td, tr.wcpt-time-330pm td, tr.wcpt-time-425pm td, tr.wcpt-time-520pm td {
+tr.wcpt-time-900am td, tr.wcpt-time-945am td, tr.wcpt-time-1120am td, tr.wcpt-time-100pm td, tr.wcpt-time-330pm td, tr.wcpt-time-425pm td, tr.wcpt-time-520pm td {
     background: #fff !important;
     font-weight: normal !important;
 }
