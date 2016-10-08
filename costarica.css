@@ -1901,7 +1901,7 @@ tr.wcpt-time-900am td, tr.wcpt-time-530pm td{
     background: #ccc !important;
     font-weight: normal !important;
 }
-.wcpt-time{background: #eee !important;}
+.wcpt-time,tr.wcpt-time-100pm .wcpt-time, tr.wcpt-time-330pm .wcpt-time{background: #eee !important;}
 
 .wcorg-sessions{margin-top: -50px}
 .wcorg-session h2{margin: 20px 0;}
