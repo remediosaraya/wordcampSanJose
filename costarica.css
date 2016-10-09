@@ -1903,6 +1903,7 @@ tr.wcpt-time-900am td, tr.wcpt-time-530pm td{
     font-weight: normal !important;
     text-align: center;
 }
+.wcpt-col-track, .global-session td,.wcpt-time{text-align: center;}
 .wcpt-time,tr.wcpt-time-100pm .wcpt-time, tr.wcpt-time-330pm .wcpt-time{background: #eee !important;}
 
 .wcorg-sessions{margin-top: -50px}
