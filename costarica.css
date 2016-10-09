@@ -1889,17 +1889,19 @@ tr.wcpt-time-900am td, tr.wcpt-time-945am td, tr.wcpt-time-1120am td, tr.wcpt-ti
     font-weight: normal !important;
 }
 table.wcpt-schedule td{
-    text-align: center;
+    text-align: left;
 }
 
 td.wcpt-time, tr.wcpt-time-830am td, tr.wcpt-time-1200pm td, tr.wcpt-time-315pm td, tr.wcpt-time-630pm td{
     background: #eee !important;
     font-weight: normal !important;
+    text-align: center;
 }
 
 tr.wcpt-time-900am td, tr.wcpt-time-530pm td{
     background: #ccc !important;
     font-weight: normal !important;
+    text-align: center;
 }
 .wcpt-time,tr.wcpt-time-100pm .wcpt-time, tr.wcpt-time-330pm .wcpt-time{background: #eee !important;}
 
@@ -2447,4 +2449,7 @@ div#footer-widgets {
         width: 100%;
     }
 }
+
+
+
 
