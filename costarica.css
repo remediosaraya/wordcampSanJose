@@ -1892,7 +1892,7 @@ table.wcpt-schedule td{
     text-align: left;
 }
 
-td.wcpt-time, tr.wcpt-time-830am td, tr.wcpt-time-1200pm td, tr.wcpt-time-315pm td, tr.wcpt-time-630pm td{
+td.wcpt-time, tr.wcpt-time-800am td, tr.wcpt-time-1200pm td, tr.wcpt-time-315pm td, tr.wcpt-time-630pm td{
     background: #eee !important;
     font-weight: normal !important;
     text-align: center;
